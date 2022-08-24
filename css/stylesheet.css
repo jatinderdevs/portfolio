@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --color: #4ec6c073;
+  --dark: #219b95ee;
+  --orange: #ff6225;
+}
+body {
+  font-family: "Nunito", sans-serif !important;
+  position: relative;
+}
+.loader {
+  position: fixed;
+  inset: 0;
+  text-align: center;
+  z-index: 99;
+  color: white;
+  background: #28aa9d;
+}
+* {
+  transition: ease-in-out all 350ms;
+}
+h1 h2 {
+  margin: 0;
+  line-height: 1.1;
+  text-transform: capitalize;
+}
+p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 14px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+section {
+  padding: 4em 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dfdfdf;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.head {
+  background-image: linear-gradient(to bottom, var(--color), #fff);
+}
+.custmnav {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 1) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, 0.2) inset;
+  /* box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.3),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3); */
+}
+.custmnav li {
+  margin-right: 1.5em;
+}
+.custmnav li:hover {
+  border-radius: 5px;
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+.custmnav li a {
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black !important;
+}
+.clink {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.clink li {
+  float: left;
+}
+.clink li a {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.bannertxt {
+  padding: 4em 0;
+}
+h1 {
+  font-weight: 700;
+  font-size: 5em;
+  line-height: 0.9;
+
+  text-transform: capitalize;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc;
+}
+.bannertxt p {
+  margin: 2.5em 0;
+}
+.custmbtn {
+  box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.3),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.1);
+  font-size: 1.2rem;
+  background: var(--orange);
+  transition: ease-in-out all 1s !important;
+  color: #fff;
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+}
+.custmbtn:hover {
+  color: #fff;
+  box-shadow: 0 0 10px;
+}
+.custmbtn_small {
+  /* box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.3),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.1); */
+  font-size: 1rem;
+  background: var(--dark);
+  transition: ease-in-out all 1s !important;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+.servicesbox {
+  /* background: url("../img/bubble.png") no-repeat left; */
+  background: var(--color);
+  padding: 2.5em;
+
+  border-radius: 20px;
+  box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.1),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.1);
+  /* box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5); */
+}
+.servicecard {
+  display: flex;
+  padding: 1em 0.5em;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.servicecard:last-child {
+  margin-bottom: 0 !important;
+}
+.servicecard:hover {
+  box-shadow: 0 0 10px #444;
+}
+.cardimg {
+  width: 30%;
+  padding: 0 10px;
+}
+.cardtxt {
+  padding: 0 15px;
+}
+.cardtxt h4 {
+  text-transform: capitalize;
+
+  font-weight: bold;
+}
+.cardtxt p {
+  line-height: unset;
+  margin: 0;
+  text-transform: lowercase;
+}
+.skillbox {
+  background: var(--dark);
+  box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.2) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, 0.2) inset;
+  border-radius: 10px;
+  padding: 3em 1em;
+}
+.skillbox h2 {
+  font-size: 3.5em;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+  /* opacity: 8;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc; */
+}
+.skillbox p {
+  color: rgba(255, 255, 255, 0.9);
+}
+.skillcard {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: unset;
+}
+.moreinfo {
+  display: none;
+}
+.skillcard:hover {
+  transition: ease-in-out all 0.9s;
+  transform: rotateY(360deg);
+}
+
+.skillimg {
+  height: 100px;
+}
+.skillcard h5 {
+  margin: 0;
+  color: #fff;
+  text-transform: capitalize;
+}
+.skillcard span {
+  color: rgba(255, 255, 255, 0.9);
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.projects {
+  background: rgb(56, 56, 116);
+  background: linear-gradient(
+    309deg,
+    rgba(56, 56, 116, 1) 0%,
+    rgba(144, 221, 189, 1) 100%
+  );
+  background-size: 200%;
+  animation: wave 6s infinite alternate;
+}
+@keyframes wave {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+.pcard {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  overflow: hidden;
+  text-align: center;
+  padding: 1em;
+  -webkit-backdrop-filter: blur(20px);
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.layer {
+  position: absolute;
+  inset: 0;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  background-image: linear-gradient(
+    to bottom,
+    var(--color),
+    rgba(56, 56, 116, 0.5)
+  );
+  opacity: 0;
+}
+.pcard:hover .layer {
+  opacity: 1;
+}
+.pcard h5 > small {
+  display: block;
+  font-size: 12px;
+}
+.pimg {
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+}
+.contact {
+  position: relative;
+}
+
+.contactform {
+  border: 1px solid #dfdfdf;
+  padding: 1em;
+}
+.contactform label {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #555;
+  margin: 0;
+}
+.txtbox {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0.5em;
+  border: 1px solid #dfdfdf;
+  font-size: 14px;
+  resize: none;
+}
+.contactul {
+  margin: 0;
+  width: 70%;
+  padding: 0%;
+  list-style-type: none;
+}
+.contactul li {
+  padding: 0.5em;
+
+  margin-bottom: 8px;
+  color: #333;
+  text-transform: capitalize;
+}
+.contactul li:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.contactul li a {
+  font-weight: bold;
+}
+.contactul li a:hover {
+  color: var(--dark);
+}
+.contacttxt {
+  padding: 0 10%;
+}
+
+footer {
+  padding: 1rem 0;
+  background: #dfdfdf;
+}
+footer p {
+  margin: 0;
+}
+/* responisve css */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 4em;
+  }
+  .contacttxt {
+    padding: 0 !important;
+  }
+  .skillcard {
+    margin-bottom: 30px;
+  }
+  .cardimg {
+    display: none;
+  }
+
+  .contactul {
+    width: 100% !important;
+  }
+}
