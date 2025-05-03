@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* cursive */
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -20,7 +22,7 @@ body {
   text-align: center;
   z-index: 99;
   color: white;
-  background: #28aa9d;
+  background: var(--color);
 }
 * {
   transition: ease-in-out all 350ms;
@@ -34,7 +36,7 @@ p {
   color: #555;
   line-height: 1.6;
   font-size: 14px;
-  text-transform: capitalize;
+  
   letter-spacing: 1px;
 }
 a {
@@ -66,6 +68,9 @@ section {
 }
 .head {
     padding: 3rem;
+}
+.bg-green{
+  background: var(--yellow);
 }
 .custmnav {
   background: var(--dark);
@@ -105,8 +110,8 @@ section {
 }
 h1 {
   font-weight: 600;
-  font-size: 2.8em;
-  
+  font-size: 2.5em;
+  margin: 0;
 line-height: 1.3;
   
 }
@@ -122,18 +127,21 @@ h1>span{
   color: var(--yellow);
 }
 .bannertxt p {
-  margin: 2.5em 0;
+  margin: 2.0em 0;
 }
-.about h2{
-  color: white;
-}
+
 .aboutthumb h3{
   font-size: 2.2rem;
   font-weight: 500;
-  color: var(--yellow);
+  color: #fff;
 }
 
-
+.signature{
+  font-family: "Allura", cursive;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: var(--yellow);
+}
 .custmbtn {
   /* box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.3),
     -12px -12px 24px 0 rgba(255, 255, 255, 0.1); */
@@ -144,7 +152,7 @@ h1>span{
   transition: ease-in-out all 1s !important;
   color: var(--color);
   padding: 15px 1.5em;
-
+  display: inline-block;
   border-radius: 40px;
 }
 .custmbtn:hover {
@@ -174,6 +182,7 @@ h1>span{
 }
 .servicecard {
   display: grid;
+  cursor: pointer;
   grid-template-columns: 20% 80%;
   grid-template-rows: auto;
   padding: 1em 0.5em;
@@ -187,6 +196,12 @@ h1>span{
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.servicecard:hover .cardimg>img{
+  transform: rotateY(180deg);
+}
+.servicecard:hover{
+  box-shadow: 0;
+}
 .servicecard:last-child {
   margin-bottom: 0 !important;
 }
@@ -194,8 +209,14 @@ h1>span{
   box-shadow: 0 0 10px #444;
 }
 .cardimg {
+  height: 80px;
+  width: 80px;
+  display: grid;
+  border-radius: 50%;
+  background: var(--yellow);
   /* width: 30%; */
-  padding: 0 10px;
+  place-content: center;
+  padding: 15px;
 }
 .cardtxt {
   padding: 0 15px;
@@ -224,10 +245,98 @@ h1>span{
 .moreinfo {
   display: none;
 }
-
-
-
-
+.projects{
+  background: #f9f9fb;
+}
+.project{
+  background: white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 20px 15px;
+  box-shadow: 0 0 5px #dfdfdf;
+}
+.project:hover .projectImg>img{
+  transform: scale(1.1);
+}
+.projectImg{
+  padding: 40px 20px;
+  border: 1px solid #dfdfdf;
+  
+  border-radius: 20px;
+  background: white;
+}
+.projectTitle{
+  padding-top: 15px;
+}
+.projectTitle h4{
+  font-weight: 600;
+  margin: 0;
+  font-size: 1.5rem;
+}
+.tag{
+  background: var(--yellow);
+  border-radius: 30px;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+.pbtn{
+  padding: 5px 20px;
+  
+  border-radius:15px ;
+  background: var(--dark);
+  color: var(--yellow);
+}
+.pbtn:hover{
+  color: white;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.swiper {
+  width: 100%;
+  height: 350px;
+}
+.testi{
+  background: #f9f9fb;
+}
+.testmonial{
+  z-index: 1;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+}
+.testmonial::after{
+  opacity: 0.4;
+  content: '"';
+  z-index: -1;
+  font-size: 15rem;
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+.testmonial i{
+ color: var(--yellow);
+}
+.unstar{
+  color: #777 !important;
+}
+.user h6{
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: 700;
+  color: var(--dark);
+}
+.user{
+  gap: 15px;
+  display: flex;
+  align-items: center;
+}
 @keyframes wave {
   0% {
     background-position: left;
@@ -244,22 +353,23 @@ h1>span{
 }
 
 .contactform {
-  border: 1px solid #dfdfdf;
-  padding: 1em;
+  
 }
 .contactform label {
   font-size: 14px;
   text-transform: capitalize;
-  color: #555;
+  color: #333;
   margin: 0;
 }
 .txtbox {
+  background: #dfdfdf;
   width: 100%;
   margin-bottom: 10px;
-  padding: 0.5em;
+  padding:0.8rem 0.5em;
   border: 1px solid #dfdfdf;
   font-size: 14px;
   resize: none;
+  border-radius: 20px;
 }
 .contactul {
   margin: 0;
@@ -269,10 +379,17 @@ h1>span{
 }
 .contactul li {
   padding: 0.5em;
-
-  margin-bottom: 8px;
+  
   color: #333;
   text-transform: capitalize;
+}
+.contactul li span{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  background: var(--yellow);
+  color: var(--dark);
 }
 .contactul li:hover {
   background: rgba(255, 255, 255, 0.5);
@@ -283,9 +400,7 @@ h1>span{
 .contactul li a:hover {
   color: var(--dark);
 }
-.contacttxt {
-  padding: 0 10%;
-}
+
 
 footer {
   padding: 1rem 0;
@@ -297,7 +412,7 @@ footer p {
 /* responisve css */
 @media only screen and (max-width: 600px) {
   h1 {
-    font-size: 4em;
+    font-size: 2.8em;
   }
   .contacttxt {
     padding: 0 !important;
