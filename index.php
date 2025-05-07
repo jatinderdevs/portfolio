@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jatidner singh | Web developer</title>
+    <meta property="og:title" content="Freelance Web Developer Melbourne | JatinderDev">
+    <meta property="keyword" content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
+    <meta property="og:description" content="Affordable web development, design & digital marketing in Melbourne. Contact JatinderDev!">
+    <meta property="og:image" content="https://jatinderdev.com/images/logo.jpg">
+    <meta property="og:url" content="https://jatinderdev.com">
+    <meta name="robots" content="index, follow">
+    <title>Freelance Web Developer Melbourne | JatinderDev</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
-<link rel="manifest" href="img/favicon_io/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
         integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,7 +38,6 @@
             <header data-aos="fade-down">
                 <nav class="navbar navbar-expand-lg navbar-dark custmnav">
                     <a class="navbar-brand" href="index.php">
-                        
                        | JatinderDev |
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -49,14 +54,18 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#services">services</a>
                             </li>
+                            
                             <li class="nav-item">
-                                <a class="nav-link" href="#skill">skill</a>
+                                <a class="nav-link" href="#portfolio">My work</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#portfolio">portfolio</a>
+                                <a class="nav-link" href="#portfolio">about</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact-us.php">contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us.php">blog</a>
                             </li>
                         </ul>
                         <div class="form-inline my-2 my-lg-0">
@@ -94,70 +103,64 @@
     <img src="img/servicebar.png" class="img-fluid" width="100%" alt="">
     <section class="services" id="services">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="servicesbox">
-                        <div class="servicecard" data-aos="zoom-in">
-                            <div class="cardimg">
-                                <img src="img/graphic-design.png" class="img-fluid" alt="">
+            <div class="row  align-items-center">
+                <div class="col-md-12">
+                    <h2 class="subHeading">My <span> services</span></h2>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="servicecard" data-aos="zoom-in">
+                                <div class="cardimg">
+                                    <img src="img/graphic-design.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="cardtxt">
+                                    <h4>web developer & designer</h4>
+                                    <p>designe is what make imperssion on your client i can make fully responsive design
+                                        </p>
+                                    <a href="" >Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                     
+
+
+                                </div>
                             </div>
-                            <div class="cardtxt">
-                                <h4>website designer</h4>
-                                <p>designe is what make imperssion on your client i can make fully responsive design
+                        </div>
+                        <div class="col-md-4">
+                            <div class="servicecard" data-aos="zoom-in">
+                                <div class="cardimg">
+                                    <img src="img/coding.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="cardtxt">
+                                    <h4>Graphic Designing & social media content</h4>
+                                    <p>develop your backend with smart programming languages so your client can access
+                                                                    </p>
+                                    <a href="" >Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                      
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="servicecard" data-aos="zoom-in">
+                                <div class="cardimg">
+                                    <img src="img/bullhorn.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="cardtxt">
+                                    <h4>digital marketing & SEO services</h4>
+                                    <p>pormotion of your website is cruical part of your business i will help you to
+                                    
                                     </p>
-                                    <a href="" >Read More</a>
-
-
+                                    <a href="" >Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                    
+                                </div>
                             </div>
                         </div>
-                        <div class="servicecard" data-aos="zoom-in">
-                            <div class="cardimg">
-                                <img src="img/coding.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="cardtxt">
-                                <h4>web developer</h4>
-                                <p>develop your backend with smart programming languages so your client can access
-                                                                  </p>
-                                    <a href="" >Read More</a>
+                       
 
-                            </div>
-                        </div>
-
-                        <div class="servicecard" data-aos="zoom-in">
-                            <div class="cardimg">
-                                <img src="img/bullhorn.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="cardtxt">
-                                <h4>digital marketing</h4>
-                                <p>pormotion of your website is cruical part of your business i will help you to
-                                  
-                                </p>
-                                <a href="" >Read More</a>
-                                
-                            </div>
-                        </div>
+                       
                     </div>
 
                 </div>
-                <div class="col-md-6">
-                    <div class="bannertxt" data-aos="fade-left">
-                        <h2 class="subHeading">
-                            Service I Provide
-                        </h2>
-                        <p class="text-justify">i am provideing three main services which essentially for every
-                            website.first is design which make impression on your client
-                            and help to discover what he/she wants from your service.The second one is development ,i
-                            will providie fast and secure service to
-                            your client is what most preferable for me.therefore client can give you information without
-                            heistance and feel secure.digital
-                            marketing can genrate organic traffic to your website and help people to understad what you
-                            business actually is .i will make
-                            social campaigns and Ads to boost your business.
-
-                        </p>
-
-                    </div>
-                </div>
+               
             </div>
         </div>
     </section>
@@ -447,21 +450,19 @@
         </div>
 
     </footer>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/61e3d180b84f7301d32b4045/1fpukljp2';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
+   <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/67fe262fd9917b190cb9655f/1ioscab3h';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
