@@ -67,7 +67,7 @@ section {
   background: #555;
 }
 .head {
-    padding: 3rem;
+   padding: 2rem 0;
 }
 .bg-green{
   background: var(--yellow);
@@ -105,9 +105,7 @@ section {
   font-size: 20px;
 }
 
-.bannertxt {
-  padding: 4em 0;
-}
+
 h1 {
   font-weight: 600;
   margin: 0;
@@ -177,7 +175,7 @@ h1>span{
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  background: #f9f9fb;
+  background: #f5f5f5;
   /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
  
   border-radius: 10px;
@@ -186,15 +184,12 @@ h1>span{
 .servicecard:hover .cardimg>img{
   transform: rotateY(180deg);
 }
-.servicecard:hover{
-  box-shadow:  0 0 10px #dfdfdf;
-  
-}
-.servicecard:last-child {
-  margin-bottom: 0 !important;
-}
+
+
 .servicecard:hover {
   box-shadow: unset;
+  box-shadow:  0 0 10px #dfdfdf;
+
 }
 .cardimg {
   height: 80px;
@@ -218,9 +213,11 @@ h1>span{
 .cardtxt p {
   margin-bottom: 10px;
   
-  text-transform: lowercase;
+  
 }
 .cardtxt a{
+  font-size: 14px;
+  font-weight: 500;
   color: var(--dark);
 }
 .about {
@@ -232,6 +229,7 @@ h1>span{
 
 .about p {
   color: rgba(255, 255, 255, 0.9);
+  text-align: justify;
 }
 
 .moreinfo {
@@ -401,10 +399,31 @@ footer {
 footer p {
   margin: 0;
 }
+
+.marketingWork{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+ 
+}
+.cardGrid{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+}
+.cardGrid>.cardimg{
+  margin: 0;
+}
+.cardGrid:hover{
+  background: var(--yellow);
+}
 /* responisve css */
 @media (min-width:320px) {
   h1{
-    font-size: 1.8em;
+    padding-top: 2rem;
+    font-size: 1.9em;
   
    }
  
@@ -419,6 +438,7 @@ footer p {
 
 @media (min-width:992px){
  h1{
+  padding-top: unset;
   font-size: 2.5em;
 
  }

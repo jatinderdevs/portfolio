@@ -7,40 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Freelance Web Developer Melbourne | JatinderDev">
     <meta property="keyword" content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
-    <meta property="og:description" content="Affordable web development, design & digital marketing in Melbourne. Contact JatinderDev!">
+    <meta property="og:description" content="Professional web development & design in Melbourne. Custom websites by JatinderDev. Contact for responsive, SEO-friendly sites!">
     <meta property="og:image" content="https://jatinderdev.com/images/logo.jpg">
     <meta property="og:url" content="https://jatinderdev.com">
     <meta name="robots" content="index, follow">
-    <title>Freelance Web Developer Melbourne | JatinderDev</title>
-
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "JatinderDev",
-        "description": "Freelance web development, design, and digital marketing services in Melbourne by Jatinder Singh.",
-        "address": {
-            "@type": "3015",
-            "addressLocality": "Melbourne",
-            "addressRegion": "VIC",
-            "postalCode": "[3015]",
-            "addressCountry": "AU"
-        },
-        "telephone": "+61 499167608",
-        "email": "info@jatinderdev.com",
-        "url": "https://jatinderdev.com",
-        "sameAs": [
-            "https://www.linkedin.com/in/[your-profile]",
-            "https://www.instagram.com/[your-profile]"
-        ],
-        "founder": {
-            "@type": "Person",
-            "name": "Jatinder Singh",
-            "jobTitle": "Freelance Full-Stack Developer & Digital Marketing Expert",
-            "description": "Jatinder Singh is a Melbourne-based freelancer with 4 years of experience in full-stack web development, responsive design, SEO, and social media marketing."
-        }
-        }
-    </script>
+    <title>Web Developer & Designer Melbourne | JatinderDev</title>
 
     <?php include_once('include/linkfiles.php') ?>
 
@@ -55,14 +26,9 @@
             <div class="row align-items-center mt-3">
                 <div class="col-md-7">
                     <div class="bannertxt" data-aos="fade-right">
-                        <h1>Freelance <span>Web Developer </span>  & <span> Designer</span> in Melbourne
-                            <!-- I am Jatinder Singh, <br>
-                     <span>   Web Developer & Designer </span><br>
-                        Based in Melbourne. -->
+                        <h1>Web <span> Development & Design </span> Services in Melbourne
                         </h1>
-                        <p>
-                           Hey, I’m <strong> Jatinder Singh</strong>, a Melbourne-based freelance web developer and designer with 4 years of experience. I create responsive websites and custom web apps, specializing modern designs and customize applications. I also offer digital marketing, including SEO, social media content, and ads, plus logo and graphic design to boost your brand. My affordable, tailored solutions help your businesses grow online. Ready to start? Contact me for a free quote!
-
+                        <p>Looking for a professional web developer in Melbourne? we create responsive, user-friendly websites tailored to your business needs. From customize application platforms to personal portfolios, our web development and design services help Melbourne businesses stand out online.
                         </p>
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=+61499167608&text=Hi, I have query regarding My website"
                             class=" custmbtn">Let's Connect &nbsp;<i class="fa fa-whatsapp" aria-hidden="true"></i></a>
@@ -82,20 +48,17 @@
         <div class="container">
             <div class="row  align-items-center">
                 <div class="col-md-12">
-                    <h2 class="subHeading">My <span> services</span></h2>
+                    <h2 class="subHeading"><span> Services</span> offered</h2>
                     <br>
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="servicecard" data-aos="zoom-in">
+                            <div class="servicecard cardGrid" data-aos="zoom-in">
                                 <div class="cardimg">
-                                <img src="img/coding.png" class="img-fluid" alt="">
-
+                                    <img src="img/webcoding.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="cardtxt">
-                                    <h4>web designer & developer</h4>
-                                    <p>Create responsive, user-friendly websites tailored to your business needs.
-                                        </p>
-                                    <a href="web-developer-designer.php" >Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                    <h4>web developer & designer</h4>
+                                  
                                      
 
 
@@ -103,32 +66,28 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="servicecard" data-aos="zoom-in">
+                            <div class="servicecard cardGrid" data-aos="zoom-in">
                                 <div class="cardimg">
-                                <img src="img/graphic-design.png" class="img-fluid" alt="">
-                                    
+                                    <img src="img/seo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="cardtxt">
-                                    <h4>graphic design</h4>
-                                    <p>Professional graphic designs for your service/business branding; providing Logo, Flyer, Pamplet design servivces
+                                    <h4>SEO & Content writing</h4>
+                                   
                                                                     </p>
-                                    <a href="" >Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                    
                                       
 
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="servicecard" data-aos="zoom-in">
+                            <div class="servicecard cardGrid" data-aos="zoom-in">
                                 <div class="cardimg">
-                                    <img src="img/bullhorn.png" class="img-fluid" alt="">
+                                    <img src="img/application.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="cardtxt">
-                                    <h4>Digital Marketing & SEO</h4>
-                                    <p>offers expert SEO and social media marketing services that drive traffic, increase brand visibility.
+                                    <h4>customize applications</h4>
                                     
-                                    </p>
-                                    <a href="digital-marketing-and-SEO.php" >Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                                     
                                 </div>
                             </div>
@@ -143,9 +102,8 @@
             </div>
         </div>
     </section>
-    <!-- about us section -->
+      <!-- about us section -->
     <?php include_once('include/about.php') ?>
-
     <section class="projects" id="portfolio">
         <div class="container">
             <h5 class="m-0">-Portfolio</h5>
@@ -250,26 +208,6 @@
                         </div>
                     </div>
                 </div>
-                    <div class="col-md-6">
-                    <div class="project" data-aos="flip-right">
-                        <div class="">
-                        <img src="img/digital-marketing/BITMarketing.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="projectTitle">
-                             <a href="" class="tag">Digital Marketing</a>
-
-                            <a href="" class="tag">Website Design</a>
-
-                            <div class="flex">
-                            <h4>Brighton Institute of Technology</h4>
-
-                            
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            
             </div>
         </div>
     </section>
@@ -280,7 +218,7 @@
                 <div class="col-md-5">
                     <div class="contacttxt" data-aos="fade-right">
                     <h5 class="m-0">-Contact us</h5>
-                        <h2 class="subHeading">Let's Talk <span>your Project</span></h2>
+                        <h2 class="subHeading">Ready to launch your <span> website</span>?</span></h2>
                         <br>
                         <p>have a project? discuss with us get free assistance and get road map of your start up.drop a
                             mail or call</p>
