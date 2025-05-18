@@ -208,7 +208,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="contactform" data-aos="fade-left">
-                        <form action="" method="post">
+                        <form action="email.php" method="post">
                             <label for="">name</label>
                             <input type="text" name="name"  placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">
@@ -218,12 +218,12 @@
                                 </div>
                                 <div class="col-md-6">
                                     <label for="">contact</label>
-                                    <input  type="text" name="email" id="email" placeholder="+61 123 321 123" class="txtbox">
+                                    <input  type="text" name="phone" id="phone" placeholder="+61 123 321 123" class="txtbox">
                                 </div>
                             </div>
                            
                             <label for="">write your message*</label>
-                            <textarea required name="msg" placeholder="write here.." id="msg" cols="20" class="txtbox" rows="3"></textarea>
+                            <textarea required name="message" placeholder="write here.." id="message" cols="20" class="txtbox" rows="3"></textarea>
 
                             
                             <button type="submit" class="btn  custmbtn">Submit <i class="fa fa-send"></i>
@@ -234,114 +234,12 @@
             </div>
         </div>
     </section>
-    <section class="testi">
-        <div class="container">
-        <h5 class="m-0">-Testimonials</h5>
-            <h2 class="subHeading">Client <span>Testimonials</span></h2>
-            <br>
-          <!-- Slider main container -->
-        <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <div class="testmonial">
-                        <div class="my-2">
+       <?php include_once('include/testiFaq.php') ?>
 
-                        <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star unstar" aria-hidden="true"></i>
-                        </div>
-                    <div class="testiTxt">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, maxime laborum aliquid est sapiente repellat possimus nesciunt molestiae nulla commodi vero, tempora architecto, blanditiis corporis nobis itaque dolor nemo aliquam! Quos magnam inventore, corporis repudiandae optio consequatur aliquam. Illo nobis, est suscipit error fugiat vel aspernatur quam reiciendis et quae consequatur minima sint non incidunt maxime asperiores quibusdam consectetur dolor aliquid! Laborum voluptatem ipsam minus perspiciatis excepturi at? Modi obcaecati consequatur voluptates, aperiam dolorum excepturi tempora voluptatibus molestias officia veniam, distinctio voluptas esse nesciunt vitae adipisci accusantium porro odio maiores earum corporis exercitationem? Nihil deleniti consectetur accusantium nesciunt ullam laborum.</p>
-                    </div>
-                    <div class="user">
-                        <div class="userprofile">
-                            <img class="img-fluid" src="img/user.png" alt="">
-                        </div>
-                        <div class="usertitle">
-                            <h6>test user</h6>
-                            <small>Founder of website</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-            <div class="testmonial">
-                        <div class="my-2">
-
-                        <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star unstar" aria-hidden="true"></i>
-                        </div>
-                    <div class="testiTxt">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, maxime laborum aliquid est sapiente repellat possimus nesciunt molestiae nulla commodi vero, tempora architecto, blanditiis corporis nobis itaque dolor nemo aliquam! Quos magnam inventore, corporis repudiandae optio consequatur aliquam. Illo nobis, est suscipit error fugiat vel aspernatur quam reiciendis et quae consequatur minima sint non incidunt maxime asperiores quibusdam consectetur dolor aliquid! Laborum voluptatem ipsam minus perspiciatis excepturi at? Modi obcaecati consequatur voluptates, aperiam dolorum excepturi tempora voluptatibus molestias officia veniam, distinctio voluptas esse nesciunt vitae adipisci accusantium porro odio maiores earum corporis exercitationem? Nihil deleniti consectetur accusantium nesciunt ullam laborum.</p>
-                    </div>
-                    <div class="user">
-                        <div class="userprofile">
-                            <img class="img-fluid" src="img/user.png" alt="">
-                        </div>
-                        <div class="usertitle">
-                            <h6>test user</h6>
-                            <small>Founder of website</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-            <div class="testmonial">
-                        <div class="my-2">
-
-                        <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star unstar" aria-hidden="true"></i>
-                        </div>
-                    <div class="testiTxt">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, maxime laborum aliquid est sapiente repellat possimus nesciunt molestiae nulla commodi vero, tempora architecto, blanditiis corporis nobis itaque dolor nemo aliquam! Quos magnam inventore, corporis repudiandae optio consequatur aliquam. Illo nobis, est suscipit error fugiat vel aspernatur quam reiciendis et quae consequatur minima sint non incidunt maxime asperiores quibusdam consectetur dolor aliquid! Laborum voluptatem ipsam minus perspiciatis excepturi at? Modi obcaecati consequatur voluptates, aperiam dolorum excepturi tempora voluptatibus molestias officia veniam, distinctio voluptas esse nesciunt vitae adipisci accusantium porro odio maiores earum corporis exercitationem? Nihil deleniti consectetur accusantium nesciunt ullam laborum.</p>
-                    </div>
-                    <div class="user">
-                        <div class="userprofile">
-                            <img class="img-fluid" src="img/user.png" alt="">
-                        </div>
-                        <div class="usertitle">
-                            <h6>test user</h6>
-                            <small>Founder of website</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        <!-- If we need pagination -->
-        <div class="ml-4 swiper-pagination"></div>
-
-        <!-- If we need navigation buttons
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div> -->
-
-        <!-- If we need scrollbar -->
-        <!-- <div class="swiper-scrollbar"></div> -->
-        </div>  
-        </div>
-    </section>
    
-   
-    <footer>
-        <div class="container">
-            <div class="flex">
-            <p>all rights reserved.&copy; 2025 jatinder singh</p>
-            <p>Made with <strong class="text-danger"><i class="fa fa-heart" aria-hidden="true"></i></strong> in Melbourne,AU </p>
-            </div>
-        </div>
+       <?php include_once('include/footer.php') ?>
 
-    </footer>
-   <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/67fe262fd9917b190cb9655f/1ioscab3h';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

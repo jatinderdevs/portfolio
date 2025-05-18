@@ -28,7 +28,7 @@
         </div>
 </section>
 
-<section>
+<section class="">
     <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-5">
@@ -62,32 +62,12 @@
                 </div>
             </div>
     </div>
+    <hr>
 </section>
 
- <footer>
-        <div class="container">
-            <div class="flex">
-            <p>all rights reserved.&copy; 2025 jatinder singh</p>
-            <p>Made with <strong class="text-danger"><i class="fa fa-heart" aria-hidden="true"></i></strong> in Melbourne,AU </p>
-            </div>
-        </div>
+     <?php include_once('include/footer.php') ?>
 
-    </footer>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/61e3d180b84f7301d32b4045/1fpukljp2';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
+  
 </body>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
