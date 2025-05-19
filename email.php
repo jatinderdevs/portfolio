@@ -22,17 +22,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // Server settings
         $mail->isSMTP();                                      // Use SMTP
-        $mail->Host = 'mail.jatinderdev.com';                // Your domain’s mail server (replace with your domain)
+        $mail->Host = '';                // Your domain’s mail server (replace with your domain)
         $mail->SMTPAuth = true;                              // Enable SMTP authentication
-        $mail->Username = 'info@jatinderdev.com';            // Your cPanel email
-        $mail->Password = 'Bigpanda@994';
+        $mail->Username = '';            // Your cPanel email
+        $mail->Password = '';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SSL             // Your cPanel email password
         //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Use TLS
         $mail->Port = 465;                                   // Port for TLS
 
         // Recipients
-        $mail->setFrom('info@jatinderdev.com', 'JatinderDev'); // Sender (cPanel email)
-        $mail->addAddress('jssingh134@gmail.com');  // Your personal email  request email to this email
+        $mail->setFrom('', 'JatinderDev'); // Sender (cPanel email)
+        $mail->addAddress('');  // Your personal email  request email to this email
         $mail->addReplyTo($email, $name);                     // Reply-to customer’s email
 
         // Content
