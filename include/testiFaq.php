@@ -1,13 +1,13 @@
- <section class="testi">
+ <!-- <section class="testi">
         <div class="container">
         <h5 class="m-0">-Testimonials</h5>
             <h2 class="subHeading">Client <span>Testimonials</span></h2>
             <br>
-          <!-- Slider main container -->
+        
         <div class="swiper">
-        <!-- Additional required wrapper -->
+    
         <div class="swiper-wrapper">
-            <!-- Slides -->
+            
             <div class="swiper-slide">
                 <div class="testmonial">
                         <div class="my-2">
@@ -70,18 +70,13 @@
             </div>
             
         </div>
-        <!-- If we need pagination -->
+       
         <div class="ml-4 swiper-pagination"></div>
 
-        <!-- If we need navigation buttons
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div> -->
-
-        <!-- If we need scrollbar -->
-        <!-- <div class="swiper-scrollbar"></div> -->
+       
         </div>  
         </div>
-    </section>
+    </section> -->
 
 
        <section id="faq">

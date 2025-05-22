@@ -11,9 +11,9 @@
             <div class="col-md-4">
                 <h5>Services</h5>
                 <ul class="footUl">
-                    <li >  <a  href="web-developer-designer.php"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Web designer & developer</a></li>
-                    <li > <a  href="digital-marketing-and-SEO.php"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Digital Marketing & SEO</a></li>
-                    <li > <a  href="digital-marketing-and-SEO.php"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Graphic Design</a></li>
+                    <li >  <a  href="web-developer-designer"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Web designer & developer</a></li>
+                    <li > <a  href="digital-marketing-and-SEO"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Digital Marketing & SEO</a></li>
+                    <li > <a  href="digital-marketing-and-SEO"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Graphic Design</a></li>
                 </ul>
             </div>
             <div class="col-md-4">
