@@ -57,3 +57,11 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
+<!-- Taku -->
+    <script>
+      !function(t,e,a,n){function c(){if(!e.getElementById(a)){var t=e.getElementsByTagName(n)[0],c=e.createElement(n);c.type="text/javascript",c.async=!0,c.src="https://cdn.taku-app.com/js/latest.js",t.parentNode.insertBefore(c,t)}}if("function"!=typeof t.Taku){var s=function(){s.q.push(arguments)};s.q=[],t.Taku=s,"complete"===e.readyState?c():t.attachEvent?t.attachEvent("onload",c):t.addEventListener("load",c,!1)}}(window,document,"taku-js","script");
+      window.Taku('news:boot', {
+        api_public_key: "5c53246b30a16d97f0f9fed7ae485b32",
+      });
+    </script>

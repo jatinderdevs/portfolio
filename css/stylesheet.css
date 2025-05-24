@@ -432,6 +432,9 @@ footer h5:hover{
   height: 100%;
   place-content: center;
 }
+.logo_txt{
+  color: #faad1b;
+}
 .socials a{
   margin-top: 15px;
   font-size: 2rem;

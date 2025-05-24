@@ -1,7 +1,7 @@
 <header data-aos="fade-down">
                 <nav class="navbar navbar-expand-lg navbar-dark custmnav">
                     <a class="navbar-brand" href="index">
-                       ] JatinderDev [
+                      <strong class="logo_txt"> ]JATINDERDEV[</strong>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

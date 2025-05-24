@@ -8,8 +8,8 @@
     <title>Contact JatinderDev | Web Developer Melbourne</title>
     <meta property="og:title" content="Freelance Web Developer Melbourne | JatinderDev">
     <meta property="og:description" content="Get in touch with JatinderDev for web development, design, or digital marketing in Melbourne. Free consultations available!">
-    <meta property="og:image" content="https://jatinderdev.com/images/logo.jpg">
-    <meta property="og:url" content="https://jatinderdev.com">
+    <meta property="og:image" content="https://jatinderdev.com/img/website.webp">
+        <meta property="og:url" content="https://jatinderdev.com/contact-us">
     <meta name="robots" content="index, follow">
    
     <?php include_once('include/linkfiles.php') ?>
@@ -37,7 +37,7 @@
                 <div class="col-md-7">
                 <div class="contactform" data-aos="fade-left">
                     <h2 class="subHeading">- How can I help you?</h2>
-                        <form action="" method="post">
+                        <form action="email" method="post">
                             <label for="">name</label>
                             <input type="text" name="name"  placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">

@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="SEO & Digital Marketing Melbourne | JatinderDev">
     <meta property="og:description" content="Grow your Melbourne business with SEO & digital marketing services by JatinderDev. Contact us!">
-    <meta property="og:image" content="https://jatinderdev.com/images/seo-social.jpg">
-    <meta property="og:url" content="https://jatinderdev.com/social-media-seo">
+    <meta property="og:image" content="https://jatinderdev.com/img/website.webp">
+    <meta property="og:url" content="https://jatinderdev.com/digital-marketing-and-SEO">
     <meta name="robots" content="index, follow">
     <title>Web Developer & Designer Melbourne | JatinderDev</title>
 
@@ -208,7 +208,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="contactform" data-aos="fade-left">
-                        <form action="email.php" method="post">
+                        <form action="email" method="post">
                             <label for="">name</label>
                             <input type="text" name="name"  placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">

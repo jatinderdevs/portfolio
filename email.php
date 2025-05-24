@@ -22,17 +22,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // Server settings
         $mail->isSMTP();                                      // Use SMTP
-        $mail->Host = '';                // Your domain’s mail server (replace with your domain)
+        $mail->Host = 'mail.jatinderdev.com';                // Your domain’s mail server (replace with your domain)
         $mail->SMTPAuth = true;                              // Enable SMTP authentication
-        $mail->Username = '';            // Your cPanel email
-        $mail->Password = '';
+        $mail->Username = 'info@jatinderdev.com';            // Your cPanel email
+        $mail->Password = 'Bigpanda@994';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SSL             // Your cPanel email password
         //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Use TLS
         $mail->Port = 465;                                   // Port for TLS
 
         // Recipients
-        $mail->setFrom('', 'JatinderDev'); // Sender (cPanel email)
-        $mail->addAddress('');  // Your personal email  request email to this email
+        $mail->setFrom('info@jatinderdev.com', 'JatinderDev'); // Sender (cPanel email)
+        $mail->addAddress('jssingh134@gmail.com');  // Your personal email  request email to this email
         $mail->addReplyTo($email, $name);                     // Reply-to customer’s email
 
         // Content
@@ -48,29 +48,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Send email
         $mail->send();
         
-        //  // Acknowledgment email to client
-        // $mail->clearAllRecipients(); // Clear previous recipients
-        // $mail->addAddress($email, $name); // Client’s email
-        // $mail->setFrom('admin@yarramovers.com.au', 'Yarramovers');
-        // $mail->addReplyTo('info@yarramovers.com.au', 'Yarramovers');// Reply-to Yarramovers Team
-        // $mail->Subject = 'Thank You for Your Quote Request | Yarramovers';
-        // $mail->isHTML(true);
-        // $mail->Body = "
-        //     <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
-        //         <h2 style='color: #28a745;'>Thank You, $name!</h2>
-        //         <p>We have received your quote request at Yarramovers. One of our team member will review your details and get back to you soon with a personalized quote.</p>
-        //         <p><strong>Request Summary:</strong></p>
-        //         <ul>
-        //             <li><strong>Name:</strong> $name</li>
-        //             <li><strong>Items:</strong> $items_list</li>
-        //         </ul>
-        //         <p>Need to update your request? Reply to this email or visit <a href='https://www.yarramovers.com.au/index.php#query'>our Query Form</a>.</p>
-        //         <p>Happy moving!</p>
-        //         <p>The Yarramovers Team</p>
-        //     </div>
-        // ";
+         // Acknowledgment email to client
+        $mail->clearAllRecipients(); // Clear previous recipients
+        $mail->addAddress($email, $name); // Client’s email
+        $mail->setFrom('info@jatinderdev.com', 'JatinderDev');
+        $mail->addReplyTo('jssingh134@gmail.com', 'JatinderDev');// Reply-to JatinderDev Team
+        $mail->Subject = 'Thank You for Your Quote Request | JatinderDev';
+        $mail->isHTML(true);
+        $mail->Body = "
+            <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
+                <h2 style='color: #28a745;'>Thank You, $name!</h2>
+                <p>We have received your request at JatinderDev. We will review your details and get back to you soon with a personalized quote.</p>
+                <p><strong>Request Summary:</strong></p>
+                <ul>
+                    <li><strong>Name:$name</strong> $name</li>
+                    <li><strong>Message:$message</strong> $items_list</li>
+                </ul>
+                <p>Need to update your request? Reply to this email or visit <a href='https://www.JatinderDev.com/contact-us.php'>Contact Page</a>.</p>
+        
+                <p>JatinderDev</p>
+        
+            </div>
+        ";
 
-        // $mail->send();
+        $mail->send();
 
         header("Location: index.php?status=success");
         exit();

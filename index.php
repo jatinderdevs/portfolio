@@ -8,8 +8,8 @@
     <meta property="og:title" content="Freelance Web Developer Melbourne | JatinderDev">
     <meta property="keyword" content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
     <meta property="og:description" content="Affordable web development, design & digital marketing in Melbourne. Contact JatinderDev!">
-    <meta property="og:image" content="https://jatinderdev.com/images/logo.jpg">
-    <meta property="og:url" content="https://jatinderdev.com">
+    <meta property="og:image" content="https://jatinderdev.com/img/website.webp">
+    <meta property="og:url" content="https://jatinderdev.com/">
     <meta name="robots" content="index, follow">
     <title>Freelance Web Developer Melbourne | JatinderDev</title>
 
@@ -20,10 +20,10 @@
         "name": "JatinderDev",
         "description": "Freelance web development, design, and digital marketing services in Melbourne by Jatinder Singh.",
         "address": {
-            "@type": "3015",
+            "@type": "3000",
             "addressLocality": "Melbourne",
             "addressRegion": "VIC",
-            "postalCode": "[3015]",
+            "postalCode": "[3000]",
             "addressCountry": "AU"
         },
         "telephone": "+61 499167608",
@@ -152,126 +152,141 @@
             <h2 class="subHeading">My Latest <span>Projects</span></h2>
             <br>
             <div class="row">
-            <div class="col-md-6">
-                    <div class="project" data-aos="flip-left">
-                        <div class="projectImg">
-                        <img src="img/projects/ISTMockup.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">SEO</a>
-                            <a href="" class="tag">Website Design</a>
-                            <a href="" class="tag">Admin Dashboard</a>
-
-
-                            <div class="flex">
-                            <h4>International Student Tips | IST<br> <small> (Blog)</small></h4>
-
-                            <a href="" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
                 <div class="col-md-6">
-                    <div class="project" data-aos="flip-right">
-                        <div class="projectImg">
-                        <img src="img/projects/yaramoversMockup.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">UI/UX</a>
-                            <a href="" class="tag">Website Design</a>
-                            <a href="" class="tag">SEO</a>
-                            <a href="" class="tag">Digital Marketing</a>
-
-                            <div class="flex">
-                            <h4>Yarramovers - A Moving Company <br> <small> (website)</small></h4>
-
-                            <a href="" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <div class="project" data-aos="flip-left">
+                            <div class="projectImg">
+                                <a href="https://www.internationalstudenttips.com.au/" target="_blank">
+                                    <img src="img/projects/ISTMockup.png" class="img-fluid" alt="">
+                                </a>
                             </div>
-                            
+                            <div class="projectTitle">
+                                <a href="" class="tag">SEO</a>
+                                <a href="" class="tag">Website Design</a>
+                                <a href="" class="tag">Admin Dashboard</a>
+
+
+                                <div class="flex">
+                                <h4>International Student Tips | IST<br> <small> (Blog)</small></h4>
+
+                                <a href="https://www.internationalstudenttips.com.au/" target="_blank" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-left">
-                        <div class="projectImg">
-                        <img src="img/projects/SITMockup.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">UI/UX</a>
-                            <a href="" class="tag">Website Design</a>
-
-
-                            <div class="flex">
-                            <h4>State Institute of Training <br> <small> (website)</small></h4>
-
-                            <a href="" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-right">
-                        <div class="projectImg">
-                        <img src="img/projects/BITMockup.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">UI/UX</a>
-                            <a href="" class="tag">Website Design</a>
-                            <a href="" class="tag">SEO</a>
-
-                            <div class="flex">
-                            <h4>Brighton Institute of Technology <br> <small> (website)</small></h4>
-
-                            <a href="" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-left">
-                        <div class="projectImg">
-                        <img src="img/projects/CITMockup.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">UI/UX</a>
-                            <a href="" class="tag">Website Design</a>
-                            <a href="" class="tag">SEO</a>
-
-                            <div class="flex">
-                            <h4>Cornell Institute of Training  <br> <small> (website)</small></h4>
-
-                            <a href="" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
                     <div class="col-md-6">
-                    <div class="project" data-aos="flip-right">
-                        <div class="">
-                        <img src="img/digital-marketing/BITMarketing.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="projectTitle">
-                             <a href="" class="tag">Digital Marketing</a>
-
-                            <a href="" class="tag">Website Design</a>
-
-                            <div class="flex">
-                            <h4>Brighton Institute of Technology</h4>
-
-                            
+                        <div class="project" data-aos="flip-right">
+                            <div class="projectImg">
+                                <a href="https://www.yarramovers.com.au/" target="_blank">
+                                    <img src="img/projects/yaramoversMockup.png" class="img-fluid" alt="">
+                                </a>
                             </div>
-                            
+                            <div class="projectTitle">
+                                <a href="" class="tag">UI/UX</a>
+                                <a href="" class="tag">Website Design</a>
+                                <a href="" class="tag">SEO</a>
+                                <a href="" class="tag">Digital Marketing</a>
+
+                                <div class="flex">
+                                <h4>Yarramovers - A Moving Company <br> <small> (website)</small></h4>
+
+                                <a href="" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="project" data-aos="flip-left">
+                            <div class="projectImg">
+                                <a href="https://www.sit.vic.edu.au/" target="_blank">
+                                <img src="img/projects/SITMockup.png" class="img-fluid" alt="">
+
+                                </a>
+
+                            </div>
+                            <div class="projectTitle">
+                                <a href="" class="tag">UI/UX</a>
+                                <a href="" class="tag">Website Design</a>
+
+
+                                <div class="flex">
+                                <h4>State Institute of Training <br> <small> (website)</small></h4>
+
+                                <a href="https://www.sit.vic.edu.au/" target="_blank" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project" data-aos="flip-right">
+                            <div class="projectImg">
+                                <a href="https://www.bit.edu.au/" target="_blank">
+                                    <img src="img/projects/BITMockup.png" class="img-fluid" alt="">
+
+                                </a>
+
+                            </div>
+                            <div class="projectTitle">
+                                <a href="" class="tag">UI/UX</a>
+                                <a href="" class="tag">Website Design</a>
+                                <a href="" class="tag">SEO</a>
+
+                                <div class="flex">
+                                <h4>Brighton Institute of Technology <br> <small> (website)</small></h4>
+
+                                <a href="https://www.bit.edu.au/" target="_blank" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-6">
+                        <div class="project" data-aos="flip-left">
+                            <div class="projectImg">
+                                <a href="https://www.cornell.vic.edu.au/" target="_blank">
+                                <img src="img/projects/CITMockup.png" class="img-fluid" alt="">
+
+                                </a>
+                            </div>
+                            <div class="projectTitle">
+                                <a href="" class="tag">UI/UX</a>
+                                <a href="" class="tag">Website Design</a>
+                                <a href="" class="tag">SEO</a>
+
+                                <div class="flex">
+                                <h4>Cornell Institute of Training  <br> <small> (website)</small></h4>
+
+                                <a href="https://www.cornell.vic.edu.au/" target="_blank" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-md-6">
+                        <div class="project" data-aos="flip-right">
+                            <div class="">
+                            <img src="img/digital-marketing/BITMarketing.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="projectTitle">
+                                <a href="" class="tag">Digital Marketing</a>
+
+                                <a href="" class="tag">Website Design</a>
+
+                                <div class="flex">
+                                <h4>Brighton Institute of Technology</h4>
+
+                                
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                
                 </div>
-            
             </div>
-        </div>
     </section>
     <section class="contact" id="contact">
         <div class="container">
@@ -295,7 +310,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="contactform" data-aos="fade-left">
-                        <form action="email.php" method="post">
+                        <form action="email" method="post">
                             <label for="">name</label>
                             <input type="text" name="name"  placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">
