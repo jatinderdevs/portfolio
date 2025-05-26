@@ -149,7 +149,7 @@
                         </div>
                         <div class="collapse" id="faq5" data-parent="#accordion">
                           <div class="answer">
-                            <p>A logo takes 3-7 days, while a website takes 2-6 weeks, depending on complexity. As a Melbourne freelancer, I deliver fast, high-quality designs and websites. <a href="/contact">Reach out</a> for a timeline!</p>
+                            <p>it depends on the complexity of project but most website complete in 2 Weeks . As a Melbourne freelancer, I deliver fast, high-quality designs and websites. <a href="/contact">Reach out</a> for a timeline!</p>
                           </div>
                         </div>
                       </div>

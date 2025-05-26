@@ -24,7 +24,7 @@
                             </div>
                             <div class="col-md-6">
                             <div class="aboutthumb">
-                                <h3>5+</h3>
+                                <h3>4+</h3>
                                 <p>Years of Experience</p>
                             </div>
                             </div>

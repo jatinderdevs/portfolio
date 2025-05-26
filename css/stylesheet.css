@@ -468,15 +468,15 @@ footer h5:hover{
     padding: 20px 15px;
     box-shadow: 0 0 10px #f9f9fb;
     border: 1px solid #dfdfdf;
+    color: var(--color);
 }
 .questionBar{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.faq-quest:hover{
-  background-color: var(--color);
-  color: white;
+.questionBar:hover a:hover{
+  color: var(--yellow);
 }
 .questionBar i{
     font-size: 1.5rem;
@@ -489,9 +489,7 @@ footer h5:hover{
   
     padding: 20px;
 }
-.answer:hover p{
-  color: white;
-}
+
 /* responisve css */
 @media (min-width:320px) {
   h1{

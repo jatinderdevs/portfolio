@@ -20,9 +20,9 @@
                 <div class="logo">
                     <a href="contact-us.php"  class="btn  custmbtn"> <i class="fa fa-comments-o" aria-hidden="true"></i> Get in Touch</a>
                     <div class="flex socials">
-                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/jatinderdeveloper/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61576803775165" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/jatinderdevs/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                    
                 </div>
