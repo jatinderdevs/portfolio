@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $recaptchaResponse = $_POST['g-recaptcha-response'] ?? '';
 
     // Verify reCAPTCHA
-    $secretKey = '6LeCUlorAAAAACnWwu-7plbw1_cxw8gJupEpMyiJ'; // Replace with your Secret Key
+    $secretKey = 'secert key'; // Replace with your Secret Key
     $verifyUrl = 'https://www.google.com/recaptcha/api/siteverify';
     $verifyData = [
         'secret' => $secretKey,
@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'mail.jatinderdev.com';                // Your domain’s mail server (replace with your domain)
         $mail->SMTPAuth = true;                              // Enable SMTP authentication
         $mail->Username = 'info@jatinderdev.com';            // Your cPanel email
-        $mail->Password = 'Bigpanda@994';
+        $mail->Password = 'password email';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SSL             // Your cPanel email password
         //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Use TLS
         $mail->Port = 465;                                   // Port for TLS
