@@ -288,6 +288,36 @@
                 </div>
             </div>
     </section>
+    <section>
+         <div class="container">
+            <h2 class="subHeading"><span>Why Choose</span> Services</h2>
+            <br>
+            <div class="row">
+                 <div class="col-md-4">
+                        <div class="whychoose local">
+                            <img src="img/australia.png" alt=""> 
+                            <h5>Local Market Understanding</h5>
+                            <p>With three years of experience in the Australian market, I have a deep understanding of local businesses and can tailor effective marketing strategies to meet their needs.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="whychoose local">
+                            <img src="img/regulation.png" alt=""> 
+                            <h5>Compliant with Regulation</h5>
+                            <p>As an ABN-registered, I ensure all content and services comply with the Privacy Act 1988. All images and code used are properly licensed or owned, with full copyright protection (©).</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="whychoose local">
+                            <img src="img/save-money.png" alt=""> 
+                            <h5>No Recurring Fees</h5>
+                            <p>Enjoy a straightforward, one-time flat fee with no monthly charges. Additionally, I can provide code and assets on demand for your convenience.</p>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
     <section class="contact" id="contact">
         <div class="container">
             
@@ -309,8 +339,8 @@
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <div class="contactform" data-aos="fade-left">
-                        <form action="email" method="post">
+                    <div class="contactform" data-aos="fade-left" >
+                        <form action="email" method="post" id="query-form">
                             <label for="">name</label>
                             <input type="text" name="name"  placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">
@@ -328,8 +358,10 @@
                             <textarea required name="message" placeholder="write here.." id="message" cols="20" class="txtbox" rows="3"></textarea>
 
                             
-                            <button type="submit" class="btn  custmbtn">Submit <i class="fa fa-send"></i>
-                            </button>
+                            <button class="g-recaptcha btn  custmbtn" 
+                            data-sitekey="6LeCUlorAAAAAN-YsaaKqxfFnfWa30DOSn9kCUi1" 
+                            data-callback='onSubmit' 
+                            data-action='submit' type="submit">Submit</button>
                         </form>
                     </div>
                 </div>

@@ -65,3 +65,19 @@ s0.parentNode.insertBefore(s1,s0);
         api_public_key: "5c53246b30a16d97f0f9fed7ae485b32",
       });
     </script>
+    
+    
+     <script src="https://www.google.com/recaptcha/api.js"></script>
+
+
+      <script>
+   function onSubmit(token) {
+    
+    if (document.getElementById("query-form").checkValidity()) {
+      document.getElementById("query-form").submit();
+    } else {
+      document.getElementById("query-form").reportValidity(); // Show validation errors
+    }
+     
+   }
+ </script>

@@ -250,7 +250,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="contactform" data-aos="fade-left">
-                        <form action="email" method="post">
+                        <form action="email" method="post" id="query-form">
                             <label for="">name</label>
                             <input type="text" name="name"  placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">
@@ -268,8 +268,10 @@
                             <textarea required name="message" placeholder="write here.." id="message" cols="20" class="txtbox" rows="3"></textarea>
 
                             
-                            <button type="submit" class="btn  custmbtn">Submit <i class="fa fa-send"></i>
-                            </button>
+                            <button class="g-recaptcha btn  custmbtn" 
+                            data-sitekey="6LeCUlorAAAAAN-YsaaKqxfFnfWa30DOSn9kCUi1" 
+                            data-callback='onSubmit' 
+                            data-action='submit' type="submit">Submit</button>
                         </form>
                     </div>
                 </div>

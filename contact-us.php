@@ -37,7 +37,7 @@
                 <div class="col-md-7">
                 <div class="contactform" data-aos="fade-left">
                     <h2 class="subHeading">- How can I help you?</h2>
-                        <form action="email" method="post">
+                        <form action="email" method="post" id="query-form">
                             <label for="">name</label>
                             <input type="text" name="name"  placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">
@@ -47,15 +47,18 @@
                                 </div>
                                 <div class="col-md-6">
                                     <label for="">contact</label>
-                                    <input  type="text" name="email" id="email" placeholder="+61 123 321 123" class="txtbox">
+                                    <input  type="text" name="phone" id="phone" placeholder="+61 123 321 123" class="txtbox">
                                 </div>
                             </div>
                            
                             <label for="">write your message*</label>
                             <textarea required name="msg" placeholder="write here.." id="msg" cols="20" class="txtbox" rows="3"></textarea>
 
+                            <button class="g-recaptcha btn  custmbtn" 
+                            data-sitekey="6LeCUlorAAAAAN-YsaaKqxfFnfWa30DOSn9kCUi1" 
+                            data-callback='onSubmit' 
+                            data-action='submit' type="submit">Submit</button>
                             
-                            <button type="submit" class="btn  custmbtn">Submit <i class="fa fa-send"></i>
                             </button>
                         </form>
                     </div>

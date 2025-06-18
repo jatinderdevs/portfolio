@@ -97,7 +97,7 @@
                         </div>
                         <div class="collapse" id="faq2" data-parent="#accordion">
                           <div class="answer">
-                            <p>I provide full-stack web development, including responsive websites, eCommerce platforms (Shopify, WooCommerce), WordPress sites, and custom web applications. Based in Melbourne, I create tailored, SEO-friendly solutions to help your business grow online. <a href="/contact-us.php">Contact me</a> for a free quote!</p>
+                            <p>I provide full-stack web development, including responsive websites and customize web application to automate manual process. Based in Melbourne, I create tailored, SEO-friendly solutions to help your business grow online. <a class="btn-link" href="contact-us">Contact me</a> for a free quote!</p>
                           </div>
                         </div>
                       </div>
@@ -110,20 +110,20 @@
                         </div>
                         <div class="collapse" id="faq3" data-parent="#accordion">
                           <div class="answer">
-                            <p>Website costs vary based on complexity, from $1,000 for a simple WordPress site to $5,000+ for custom eCommerce platforms. I offer affordable, transparent pricing for Melbourne businesses. <a href="/contact-us.php">Let’s discuss</a> your needs for a personalized quote!</p>
+                            <p>Website costs vary based on complexity, feature and add-on services like content writing, SEO, Graphic desing elements. I offer affordable, transparent pricing for Melbourne businesses. <a class="btn-link" href="contact-us">Let’s connect</a> and get free in-person consultation</p>
                           </div>
                         </div>
                       </div>
                       <div class="faq-quest">
                         <div class="questionBar">
                             <a data-toggle="collapse" href="#faq04" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                3. Can you improve my website’s SEO in Melbourne?
+                                3. Can you improve my business reach in Australia?
                             </a>
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </div>
                         <div class="collapse" id="faq04" data-parent="#accordion">
                           <div class="answer">
-                            <p>Yes! I specialize in SEO services, including keyword research, on-page optimization, and local SEO to boost your rankings in Melbourne. My strategies drive traffic and visibility. <a href="/contact">Get a free SEO audit</a> today!</p>
+                            <p>Yes! I specialize in SEO services, including keyword research, on-page optimization, and local SEO to boost your rankings on Google and social media to help your business to reach the potiential customers/users. My strategies drive traffic and visibility. Get a free SEO report <a class="btn-link" href="contact-us">Contact me</a></p>
                           </div>
                         </div>
                       </div>
@@ -136,20 +136,20 @@
                         </div>
                         <div class="collapse" id="faq4" data-parent="#accordion">
                           <div class="answer">
-                            <p>Absolutely. I craft engaging social media content and manage ads (Instagram, Facebook, LinkedIn) to enhance your brand’s presence. My Melbourne-focused campaigns attract local customers. <a href="/contact">Contact me</a> to start!</p>
+                            <p>Absolutely. I craft engaging social media content and manage ads (Instagram, Facebook) to enhance your brand’s presence. My local market focused campaigns attract local customers. <a class="btn-link" href="contact-us">Contact me</a> to start!</p>
                           </div>
                         </div>
                       </div>
                       <div class="faq-quest">
                         <div class="questionBar">
                             <a data-toggle="collapse" href="#faq5" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                5. How long does it take to design a logo or website?
+                                5. How can I contact you?
                             </a>
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </div>
                         <div class="collapse" id="faq5" data-parent="#accordion">
                           <div class="answer">
-                            <p>it depends on the complexity of project but most website complete in 2 Weeks . As a Melbourne freelancer, I deliver fast, high-quality designs and websites. <a href="/contact">Reach out</a> for a timeline!</p>
+                            <p>you can leave your message in <a class="btn-link" href="contact-us">query form</a> or you can call to the provided number. we will plan a suitable time to meet and discuss next steps about the services you are looking for. </p>
                           </div>
                         </div>
                       </div>

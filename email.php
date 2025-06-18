@@ -2,6 +2,8 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+
+
 // Include PHPMailer files
 require './src/PHPMailer.php';
 require './src/SMTP.php';
@@ -9,12 +11,37 @@ require './src/Exception.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect form data
-    $name = htmlspecialchars($_POST['name']);
-    $email = htmlspecialchars($_POST['email']);
-    $phone = htmlspecialchars($_POST['phone']);
-    $message = htmlspecialchars($_POST['message']);
+   $name = htmlspecialchars($_POST['name'] ?? '');
+    $email = htmlspecialchars($_POST['email'] ?? '');
+    $phone = htmlspecialchars($_POST['phone'] ?? '');
+    $message = htmlspecialchars($_POST['message'] ?? '');
+    $recaptchaResponse = $_POST['g-recaptcha-response'] ?? '';
 
-   
+    // Verify reCAPTCHA
+    $secretKey = '6LeCUlorAAAAACnWwu-7plbw1_cxw8gJupEpMyiJ'; // Replace with your Secret Key
+    $verifyUrl = 'https://www.google.com/recaptcha/api/siteverify';
+    $verifyData = [
+        'secret' => $secretKey,
+        'response' => $recaptchaResponse,
+        'remoteip' => $_SERVER['REMOTE_ADDR']
+    ];
+
+    $options = [
+        'http' => [
+            'method' => 'POST',
+            'header' => 'Content-type: application/x-www-form-urlencoded',
+            'content' => http_build_query($verifyData)
+        ]
+    ];
+    $context = stream_context_create($options);
+    $verifyResult = file_get_contents($verifyUrl, false, $context);
+    $captchaSuccess = json_decode($verifyResult);
+
+    if (!$captchaSuccess->success) {
+        header("Location: contact.php?status=error&message=" . urlencode("reCAPTCHA verification failed."));
+        exit();
+    }
+//    cpatcha end
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
