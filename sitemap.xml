@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://jatinderdev.com/</loc>
-    <lastmod>2025-05-22</lastmod>
+    <loc>https://jatinderdev.com.au/</loc>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- Web Developer & Designer Page -->
   <url>
-    <loc>https://jatinderdev.com/web-developer-designer</loc>
-    <lastmod>2025-05-22</lastmod>
+    <loc>https://jatinderdev.com.au/web-developer-designer</loc>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Digital Marketing & SEO Page -->
   <url>
-    <loc>https://jatinderdev.com/digital-marketing-and-SEO</loc>
-    <lastmod>2025-05-22</lastmod>
+    <loc>https://jatinderdev.com.au/digital-marketing-and-SEO</loc>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Logo, Flyer, and Poster Design Page -->
   <url>
-    <loc>https://jatinderdev.com/logo-flyer-designer</loc>
-    <lastmod>2025-05-22</lastmod>
+    <loc>https://jatinderdev.com.au/logo-flyer-designer</loc>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Contact Page -->
   <url>
-    <loc>https://jatinderdev.com/contact-us</loc>
-    <lastmod>2025-05-22</lastmod>
+    <loc>https://jatinderdev.com.au/contact-us</loc>
+    <lastmod>2025-09-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>

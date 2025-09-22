@@ -8,8 +8,8 @@
     <meta property="og:title" content="Freelance Web Developer Melbourne | JatinderDev">
     <meta property="keyword" content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
     <meta property="og:description" content="Professional web development & design in Melbourne. Custom websites by JatinderDev. Contact for responsive, SEO-friendly sites!">
-    <meta property="og:image" content="https://jatinderdev.com/img/website.webp">
-    <meta property="og:url" content="https://jatinderdev.com/web-developer-designer">
+    <meta property="og:image" content="https://jatinderdev.com.au/img/website.webp">
+    <meta property="og:url" content="https://jatinderdev.com.au/web-developer-designer">
     <meta name="robots" content="index, follow">
     <title>Web Developer & Designer Melbourne | JatinderDev</title>
 
@@ -242,7 +242,7 @@
                         <ul class="contactul mt-4">
                             <li> <span><i class="fa fa-phone" aria-hidden="true"></i> </span> <a
                                     href="">+61 499 167 608</a></li>
-                            <li> <span><i class="fa fa-envelope"></i></span> <a href="">info@jatinderdev.com</a></li>
+                            <li> <span><i class="fa fa-envelope"></i></span> <a href="">info@jatinderdev.com.au</a></li>
 
                         </ul>
 

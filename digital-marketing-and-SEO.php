@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="SEO & Digital Marketing Melbourne | JatinderDev">
     <meta property="og:description" content="Grow your Melbourne business with SEO & digital marketing services by JatinderDev. Contact us!">
-    <meta property="og:image" content="https://jatinderdev.com/img/website.webp">
-    <meta property="og:url" content="https://jatinderdev.com/digital-marketing-and-SEO">
+    <meta property="og:image" content="https://jatinderdev.com.au/img/website.webp">
+    <meta property="og:url" content="https://jatinderdev.com.au/digital-marketing-and-SEO">
     <meta name="robots" content="index, follow">
     <title>Web Developer & Designer Melbourne | JatinderDev</title>
 
@@ -200,7 +200,7 @@
                         <ul class="contactul mt-4">
                             <li> <span><i class="fa fa-phone" aria-hidden="true"></i> </span> <a
                                     href="">+61 499 167 608</a></li>
-                            <li> <span><i class="fa fa-envelope"></i></span> <a href="">info@jatinderdev.com</a></li>
+                            <li> <span><i class="fa fa-envelope"></i></span> <a href="">info@jatinderdev.com.au</a></li>
 
                         </ul>
 

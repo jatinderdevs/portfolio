@@ -6,15 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Freelance Web Developer Melbourne | JatinderDev">
-    <meta property="keyword" content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
-    <meta property="og:description" content="Affordable web development, design & digital marketing in Melbourne. Contact JatinderDev!">
-    <meta property="og:image" content="https://jatinderdev.com/img/website.webp">
-    <meta property="og:url" content="https://jatinderdev.com/">
+    <meta property="keyword"
+        content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
+    <meta property="og:description"
+        content="Affordable web development, design & digital marketing in Melbourne. Contact JatinderDev!">
+    <meta property="og:image" content="https://jatinderdev.com.au/img/website.webp">
+    <meta property="og:url" content="https://jatinderdev.com.au/">
     <meta name="robots" content="index, follow">
     <title>Freelance Web Developer Melbourne | JatinderDev</title>
 
     <script type="application/ld+json">
-        {
+    {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "JatinderDev",
@@ -27,11 +29,11 @@
             "addressCountry": "AU"
         },
         "telephone": "+61 499167608",
-        "email": "info@jatinderdev.com",
-        "url": "https://jatinderdev.com",
+        "email": "admin@jatinderdev.com.au",
+        "url": "https://jatinderdev.com.au",
         "sameAs": [
-            "https://www.linkedin.com/in/[your-profile]",
-            "https://www.instagram.com/[your-profile]"
+            "https://www.linkedin.com/in/jatinderdevs/",
+            "https://www.instagram.com/jatinderdeveloper/"
         ],
         "founder": {
             "@type": "Person",
@@ -39,39 +41,45 @@
             "jobTitle": "Freelance Full-Stack Developer & Digital Marketing Expert",
             "description": "Jatinder Singh is a Melbourne-based freelancer with 4 years of experience in full-stack web development, responsive design, SEO, and social media marketing."
         }
-        }
+    }
     </script>
 
     <?php include_once('include/linkfiles.php') ?>
 
-   
+
 </head>
 
 <body>
-   
+
     <section class="head">
         <div class="container">
-           <?php include_once('include/header.php') ?>
+            <?php include_once('include/header.php') ?>
             <div class="row align-items-center mt-3">
                 <div class="col-md-7">
                     <div class="bannertxt" data-aos="fade-right">
-                        <h1>Freelance <span>Web Developer </span>  & <span> Designer</span> in Melbourne
+                        <h1>Freelance <span>Web Developer </span> & <span> Designer</span> in Melbourne
                             <!-- I am Jatinder Singh, <br>
                      <span>   Web Developer & Designer </span><br>
                         Based in Melbourne. -->
                         </h1>
                         <p>
-                           Hey, I’m <strong> Jatinder Singh</strong>, a Melbourne-based freelance web developer and designer with 4 years of experience. I create responsive websites and custom web apps, specializing modern designs and customize applications. I also offer digital marketing, including SEO, social media content, and ads, plus logo and graphic design to boost your brand. My affordable, tailored solutions help your businesses grow online. Ready to start? Contact me for a free quote!
+                            Hey, I’m <strong> Jatinder Singh</strong>, a Melbourne-based freelance web developer and
+                            designer with 4 years of experience. I create responsive websites and custom web apps,
+                            specializing modern designs and customize applications. I also offer digital marketing,
+                            including SEO, social media content, and ads, plus logo and graphic design to boost your
+                            brand. My affordable, tailored solutions help your businesses grow online. Ready to start?
+                            Contact me for a free quote!
 
                         </p>
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=+61499167608&text=Hi, I have query regarding My website"
+                        <a target="_blank"
+                            href="https://api.whatsapp.com/send?phone=+61499167608&text=Hi, I have query regarding My website"
                             class=" custmbtn">Let's Connect &nbsp;<i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                     </div>
 
                 </div>
                 <div class="col-md-5">
                     <div class="bannerimg" data-aos="fade-left">
-                        <img src="img/banner.gif"  class="img-fluid" alt="">
+                        <img src="img/banner.gif" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -88,15 +96,16 @@
                         <div class="col-md-4">
                             <div class="servicecard" data-aos="zoom-in">
                                 <div class="cardimg">
-                                <img src="img/coding.png" class="img-fluid" alt="">
+                                    <img src="img/coding.png" class="img-fluid" alt="">
 
                                 </div>
                                 <div class="cardtxt">
                                     <h4>web designer & developer</h4>
                                     <p>Create responsive, user-friendly websites tailored to your business needs.
-                                        </p>
-                                    <a href="web-developer-designer.php">Explore <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                     
+                                    </p>
+                                    <a href="web-developer-designer.php">Explore <i class="fa fa-arrow-right"
+                                            aria-hidden="true"></i></a>
+
 
 
                                 </div>
@@ -105,15 +114,16 @@
                         <div class="col-md-4">
                             <div class="servicecard" data-aos="zoom-in">
                                 <div class="cardimg">
-                                <img src="img/graphic-design.png" class="img-fluid" alt="">
-                                    
+                                    <img src="img/graphic-design.png" class="img-fluid" alt="">
+
                                 </div>
                                 <div class="cardtxt">
                                     <h4>graphic design</h4>
-                                    <p>Professional graphic designs for your service/business branding; providing Logo, Flyer, Pamplet design servivces
-                                                                    </p>
-                                    <a href="" >Explore <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                      
+                                    <p>Professional graphic designs for your service/business branding; providing Logo,
+                                        Flyer, Pamplet design servivces
+                                    </p>
+                                    <a href="">Explore <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+
 
                                 </div>
                             </div>
@@ -125,21 +135,23 @@
                                 </div>
                                 <div class="cardtxt">
                                     <h4>Digital Marketing & SEO</h4>
-                                    <p>offers expert SEO and social media marketing services that drive traffic, increase brand visibility.
-                                    
+                                    <p>offers expert SEO and social media marketing services that drive traffic,
+                                        increase brand visibility.
+
                                     </p>
-                                    <a href="digital-marketing-and-SEO.php" >Explore <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                    
+                                    <a href="digital-marketing-and-SEO.php">Explore <i class="fa fa-arrow-right"
+                                            aria-hidden="true"></i></a>
+
                                 </div>
                             </div>
                         </div>
-                       
 
-                       
+
+
                     </div>
 
                 </div>
-               
+
             </div>
         </div>
     </section>
@@ -153,215 +165,226 @@
             <br>
             <div class="row">
                 <div class="col-md-6">
-                        <div class="project" data-aos="flip-left">
-                            <div class="projectImg">
-                                <a href="https://www.internationalstudenttips.com.au/" target="_blank">
-                                    <img src="img/projects/ISTMockup.png" class="img-fluid" alt="">
-                                </a>
-                            </div>
-                            <div class="projectTitle">
-                                <a href="" class="tag">SEO</a>
-                                <a href="" class="tag">Website Design</a>
-                                <a href="" class="tag">Admin Dashboard</a>
+                    <div class="project" data-aos="flip-left">
+                        <div class="projectImg">
+                            <a href="https://www.internationalstudenttips.com.au/" target="_blank">
+                                <img src="img/projects/ISTMockup.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="projectTitle">
+                            <a href="" class="tag">SEO</a>
+                            <a href="" class="tag">Website Design</a>
+                            <a href="" class="tag">Admin Dashboard</a>
 
 
-                                <div class="flex">
+                            <div class="flex">
                                 <h4>International Student Tips | IST<br> <small> (Blog)</small></h4>
 
-                                <a href="https://www.internationalstudenttips.com.au/" target="_blank" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                                </div>
-                                
+                                <a href="https://www.internationalstudenttips.com.au/" target="_blank" class="btn pbtn">
+                                    <i class="fa fa-external-link" aria-hidden="true"></i></a>
                             </div>
+
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="project" data-aos="flip-right">
-                            <div class="projectImg">
-                                <a href="https://www.yarramovers.com.au/" target="_blank">
-                                    <img src="img/projects/yaramoversMockup.png" class="img-fluid" alt="">
-                                </a>
-                            </div>
-                            <div class="projectTitle">
-                                <a href="" class="tag">UI/UX</a>
-                                <a href="" class="tag">Website Design</a>
-                                <a href="" class="tag">SEO</a>
-                                <a href="" class="tag">Digital Marketing</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="project" data-aos="flip-right">
+                        <div class="projectImg">
+                            <a href="https://www.yarramovers.com.au/" target="_blank">
+                                <img src="img/projects/yaramoversMockup.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="projectTitle">
+                            <a href="" class="tag">UI/UX</a>
+                            <a href="" class="tag">Website Design</a>
+                            <a href="" class="tag">SEO</a>
+                            <a href="" class="tag">Digital Marketing</a>
 
-                                <div class="flex">
+                            <div class="flex">
                                 <h4>Yarramovers - A Moving Company <br> <small> (website)</small></h4>
 
                                 <a href="" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                                </div>
-                                
                             </div>
+
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="project" data-aos="flip-left">
-                            <div class="projectImg">
-                                <a href="https://www.sit.vic.edu.au/" target="_blank">
+                </div>
+                <div class="col-md-6">
+                    <div class="project" data-aos="flip-left">
+                        <div class="projectImg">
+                            <a href="https://www.sit.vic.edu.au/" target="_blank">
                                 <img src="img/projects/SITMockup.png" class="img-fluid" alt="">
 
-                                </a>
+                            </a>
 
-                            </div>
-                            <div class="projectTitle">
-                                <a href="" class="tag">UI/UX</a>
-                                <a href="" class="tag">Website Design</a>
+                        </div>
+                        <div class="projectTitle">
+                            <a href="" class="tag">UI/UX</a>
+                            <a href="" class="tag">Website Design</a>
 
 
-                                <div class="flex">
+                            <div class="flex">
                                 <h4>State Institute of Training <br> <small> (website)</small></h4>
 
-                                <a href="https://www.sit.vic.edu.au/" target="_blank" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                                </div>
-                                
+                                <a href="https://www.sit.vic.edu.au/" target="_blank" class="btn pbtn"> <i
+                                        class="fa fa-external-link" aria-hidden="true"></i></a>
                             </div>
+
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="project" data-aos="flip-right">
-                            <div class="projectImg">
-                                <a href="https://www.bit.edu.au/" target="_blank">
-                                    <img src="img/projects/BITMockup.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="project" data-aos="flip-right">
+                        <div class="projectImg">
+                            <a href="https://www.bit.edu.au/" target="_blank">
+                                <img src="img/projects/BITMockup.png" class="img-fluid" alt="">
 
-                                </a>
+                            </a>
 
-                            </div>
-                            <div class="projectTitle">
-                                <a href="" class="tag">UI/UX</a>
-                                <a href="" class="tag">Website Design</a>
-                                <a href="" class="tag">SEO</a>
+                        </div>
+                        <div class="projectTitle">
+                            <a href="" class="tag">UI/UX</a>
+                            <a href="" class="tag">Website Design</a>
+                            <a href="" class="tag">SEO</a>
 
-                                <div class="flex">
+                            <div class="flex">
                                 <h4>Brighton Institute of Technology <br> <small> (website)</small></h4>
 
-                                <a href="https://www.bit.edu.au/" target="_blank" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                                </div>
-                                
+                                <a href="https://www.bit.edu.au/" target="_blank" class="btn pbtn"> <i
+                                        class="fa fa-external-link" aria-hidden="true"></i></a>
                             </div>
+
                         </div>
                     </div>
-                
-                    <div class="col-md-6">
-                        <div class="project" data-aos="flip-left">
-                            <div class="projectImg">
-                                <a href="https://www.cornell.vic.edu.au/" target="_blank">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project" data-aos="flip-left">
+                        <div class="projectImg">
+                            <a href="https://www.cornell.vic.edu.au/" target="_blank">
                                 <img src="img/projects/CITMockup.png" class="img-fluid" alt="">
 
-                                </a>
-                            </div>
-                            <div class="projectTitle">
-                                <a href="" class="tag">UI/UX</a>
-                                <a href="" class="tag">Website Design</a>
-                                <a href="" class="tag">SEO</a>
+                            </a>
+                        </div>
+                        <div class="projectTitle">
+                            <a href="" class="tag">UI/UX</a>
+                            <a href="" class="tag">Website Design</a>
+                            <a href="" class="tag">SEO</a>
 
-                                <div class="flex">
-                                <h4>Cornell Institute of Training  <br> <small> (website)</small></h4>
+                            <div class="flex">
+                                <h4>Cornell Institute of Training <br> <small> (website)</small></h4>
 
-                                <a href="https://www.cornell.vic.edu.au/" target="_blank" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                                </div>
-                                
+                                <a href="https://www.cornell.vic.edu.au/" target="_blank" class="btn pbtn"> <i
+                                        class="fa fa-external-link" aria-hidden="true"></i></a>
                             </div>
+
                         </div>
                     </div>
-                        <div class="col-md-6">
-                        <div class="project" data-aos="flip-right">
-                            <div class="">
+                </div>
+                <div class="col-md-6">
+                    <div class="project" data-aos="flip-right">
+                        <div class="">
                             <img src="img/digital-marketing/BITMarketing.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="projectTitle">
-                                <a href="" class="tag">Digital Marketing</a>
+                        </div>
+                        <div class="projectTitle">
+                            <a href="" class="tag">Digital Marketing</a>
 
-                                <a href="" class="tag">Website Design</a>
+                            <a href="" class="tag">Website Design</a>
 
-                                <div class="flex">
+                            <div class="flex">
                                 <h4>Brighton Institute of Technology</h4>
 
-                                
-                                </div>
-                                
+
                             </div>
+
                         </div>
                     </div>
-                
                 </div>
+
             </div>
+        </div>
     </section>
     <section>
-         <div class="container">
+        <div class="container">
             <h2 class="subHeading"><span>Why Choose</span> Services</h2>
             <br>
             <div class="row">
-                 <div class="col-md-4">
-                        <div class="whychoose local">
-                            <img src="img/australia.png" alt=""> 
-                            <h5>Local Market Understanding</h5>
-                            <p>With three years of experience in the Australian market, I have a deep understanding of local businesses and can tailor effective marketing strategies to meet their needs.</p>
-                        </div>
+                <div class="col-md-4">
+                    <div class="whychoose local">
+                        <img src="img/australia.png" alt="">
+                        <h5>Local Market Understanding</h5>
+                        <p>With three years of experience in the Australian market, I have a deep understanding of local
+                            businesses and can tailor effective marketing strategies to meet their needs.</p>
                     </div>
-                    <div class="col-md-4">
-                        <div class="whychoose local">
-                            <img src="img/regulation.png" alt=""> 
-                            <h5>Compliant with Regulation</h5>
-                            <p>As an ABN-registered, I ensure all content and services comply with the Privacy Act 1988. All images and code used are properly licensed or owned, with full copyright protection (©).</p>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whychoose local">
+                        <img src="img/regulation.png" alt="">
+                        <h5>Compliant with Regulation</h5>
+                        <p>As an ABN-registered, I ensure all content and services comply with the Privacy Act 1988. All
+                            images and code used are properly licensed or owned, with full copyright protection (©).</p>
                     </div>
-                    <div class="col-md-4">
-                        <div class="whychoose local">
-                            <img src="img/save-money.png" alt=""> 
-                            <h5>No Recurring Fees</h5>
-                            <p>Enjoy a straightforward, one-time flat fee with no monthly charges. Additionally, I can provide code and assets on demand for your convenience.</p>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="whychoose local">
+                        <img src="img/save-money.png" alt="">
+                        <h5>No Recurring Fees</h5>
+                        <p>Enjoy a straightforward, one-time flat fee with no monthly charges. Additionally, I can
+                            provide code and assets on demand for your convenience.</p>
                     </div>
+                </div>
 
             </div>
         </div>
     </section>
     <section class="contact" id="contact">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-md-5">
                     <div class="contacttxt" data-aos="fade-right">
-                    <h5 class="m-0">-Contact us</h5>
+                        <h5 class="m-0">-Contact us</h5>
                         <h2 class="subHeading">Let's Talk <span>your Project</span></h2>
                         <br>
                         <p>have a project? discuss with us get free assistance and get road map of your start up.drop a
                             mail or call</p>
                         <ul class="contactul mt-4">
-                            <li> <span><i class="fa fa-phone" aria-hidden="true"></i> </span> <a
-                                    href="">+61 499 167 608</a></li>
-                            <li> <span><i class="fa fa-envelope"></i></span> <a href="">info@jatinderdev.com</a></li>
+                            <li> <span><i class="fa fa-phone" aria-hidden="true"></i> </span> <a href="">+61 499 167
+                                    608</a></li>
+                            <li> <span><i class="fa fa-envelope"></i></span> <a href=""
+                                    class="text-lowercase">admin@jatinderdev.com.au</a>
+                            </li>
 
                         </ul>
 
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <div class="contactform" data-aos="fade-left" >
+                    <div class="contactform" data-aos="fade-left">
                         <form action="email" method="post" id="query-form">
                             <label for="">name</label>
-                            <input type="text" name="name"  placeholder="Doe John" id="name" class="txtbox">
+                            <input type="text" name="name" placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">
                                 <div class="col-md-6">
                                     <label for="">email*</label>
-                                    <input required type="email" name="email" id="email" placeholder=" youremail@abc.com" class="txtbox">
+                                    <input required type="email" name="email" id="email"
+                                        placeholder=" youremail@abc.com" class="txtbox">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="">contact</label>
-                                    <input  type="text" name="phone" id="phone" placeholder="+61 123 321 123" class="txtbox">
+                                    <input type="text" name="phone" id="phone" placeholder="+61 123 321 123"
+                                        class="txtbox">
                                 </div>
                             </div>
-                           
-                            <label for="">write your message*</label>
-                            <textarea required name="message" placeholder="write here.." id="message" cols="20" class="txtbox" rows="3"></textarea>
 
-                            
-                            <button class="g-recaptcha btn  custmbtn" 
-                            data-sitekey="6LeCUlorAAAAAN-YsaaKqxfFnfWa30DOSn9kCUi1" 
-                            data-callback='onSubmit' 
-                            data-action='submit' type="submit">Submit</button>
+                            <label for="">write your message*</label>
+                            <textarea required name="message" placeholder="write here.." id="message" cols="20"
+                                class="txtbox" rows="3"></textarea>
+
+
+                            <button class="g-recaptcha btn  custmbtn"
+                                data-sitekey="6LeCUlorAAAAAN-YsaaKqxfFnfWa30DOSn9kCUi1" data-callback='onSubmit'
+                                data-action='submit' type="submit">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -369,11 +392,11 @@
         </div>
     </section>
     <?php include_once('include/testiFaq.php') ?>
-   
-   
+
+
     <?php include_once('include/footer.php') ?>
-   
-  
+
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -386,39 +409,39 @@
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-    AOS.init();
-    $(window).on('load', function () {
-        $(".loader").hide();
+AOS.init();
+$(window).on('load', function() {
+    $(".loader").hide();
 
 
-    });
+});
 </script>
 
 <script>
-    const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
 
-  autoplay: {
+    autoplay: {
         delay: 1500,
         disableOnInteraction: true,
-      },
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
-      },
+    },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '',
-    prevEl: '.swiper-button-prev',
-  },
+    // Navigation arrows
+    navigation: {
+        nextEl: '',
+        prevEl: '.swiper-button-prev',
+    },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
 });
 </script>
 
