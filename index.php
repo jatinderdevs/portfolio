@@ -74,6 +74,7 @@
                         <a target="_blank"
                             href="https://api.whatsapp.com/send?phone=+61499167608&text=Hi, I have query regarding My website"
                             class=" custmbtn">Let's Connect &nbsp;<i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+
                     </div>
 
                 </div>
@@ -155,26 +156,42 @@
             </div>
         </div>
     </section>
+
+
     <!-- about us section -->
     <?php include_once('include/about.php') ?>
+
+
+    <!-- Technologies i used skills -->
+    <?php include_once('include/skills.php') ?>
+
+
+
 
     <section class="projects" id="portfolio">
         <div class="container">
             <h5 class="m-0">-Portfolio</h5>
             <h2 class="subHeading">My Latest <span>Projects</span></h2>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-left">
+
+            <!-- <div class="filter-buttons text-center py-4">
+                <button class="btn pbtn filter-btn active" data-filter="all">All</button>
+                <button class="btn pbtn filter-btn" data-filter="web-design">Web Design</button>
+                <button class="btn pbtn filter-btn" data-filter="web-development">Web Development</button>
+                <button class="btn pbtn filter-btn" data-filter="graphic-design">Graphic Design</button>
+            </div> -->
+            <div class="row" id="project-grid">
+                <div class="col-md-6 project-item" data-category="web-development">
+                    <div class="project project-card" data-aos="flip-left">
                         <div class="projectImg">
                             <a href="https://www.internationalstudenttips.com.au/" target="_blank">
                                 <img src="img/projects/ISTMockup.png" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="projectTitle">
-                            <a href="" class="tag">SEO</a>
-                            <a href="" class="tag">Website Design</a>
+                            <a href="" class="tag">UI/UX</a>
                             <a href="" class="tag">Admin Dashboard</a>
+                            <a href="" class="tag">Node.js/MongoDB</a>
+                            <a href="" class="tag">SEO</a>
 
 
                             <div class="flex">
@@ -187,8 +204,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-right">
+                <div class="col-md-6 project-item" data-category="web-design">
+                    <div class="project project-card" data-aos="flip-right">
                         <div class="projectImg">
                             <a href="https://www.yarramovers.com.au/" target="_blank">
                                 <img src="img/projects/yaramoversMockup.png" class="img-fluid" alt="">
@@ -203,17 +220,42 @@
                             <div class="flex">
                                 <h4>Yarramovers - A Moving Company <br> <small> (website)</small></h4>
 
-                                <a href="" class="btn pbtn"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                <a href="https://www.yarramovers.com.au/" class="btn pbtn"> <i
+                                        class="fa fa-external-link" aria-hidden="true"></i></a>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-left">
+                <div class="col-md-6 project-item" data-category="web-development">
+                    <div class="project project-card" data-aos="flip-right">
                         <div class="projectImg">
-                            <a href="https://www.sit.vic.edu.au/" target="_blank">
-                                <img src="img/projects/SITMockup.png" class="img-fluid" alt="">
+                            <a href="https://www.dalavoro.com.au/" target="_blank">
+                                <img src="img/projects/dalavoro.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="projectTitle">
+                            <a href="" class="tag">UI/UX</a>
+                            <a href="" class="tag">PHP/MySql</a>
+                            <a href="" class="tag">SEO</a>
+                            <a href="" class="tag">Admin Dashboard</a>
+
+
+                            <div class="flex">
+                                <h4>Dalavoro - Workwear store <br> <small> (online store)</small></h4>
+
+                                <a target="_blank" href="https://www.dalavoro.com.au/" class="btn pbtn"> <i
+                                        class="fa fa-external-link" aria-hidden="true"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 project-item" data-category="web-development">
+                    <div class="project project-card" data-aos="flip-left">
+                        <div class="projectImg">
+                            <a href="https://jobtrack-04575f0ac8f5.herokuapp.com/" target="_blank">
+                                <img src="img/projects/jobtrack.png" class="img-fluid" alt="">
 
                             </a>
 
@@ -221,20 +263,21 @@
                         <div class="projectTitle">
                             <a href="" class="tag">UI/UX</a>
                             <a href="" class="tag">Website Design</a>
+                            <a href="" class="tag">Node.js/MongoDB</a>
 
 
                             <div class="flex">
-                                <h4>State Institute of Training <br> <small> (website)</small></h4>
+                                <h4>Construction Job Track <br> <small> (web Application)</small></h4>
 
-                                <a href="https://www.sit.vic.edu.au/" target="_blank" class="btn pbtn"> <i
-                                        class="fa fa-external-link" aria-hidden="true"></i></a>
+                                <a href="https://jobtrack-04575f0ac8f5.herokuapp.com/" target="_blank" class="btn pbtn">
+                                    <i class="fa fa-external-link" aria-hidden="true"></i></a>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-right">
+                <div class="col-md-6 project-item" data-category="web-design">
+                    <div class="project project-card" data-aos="flip-right">
                         <div class="projectImg">
                             <a href="https://www.bit.edu.au/" target="_blank">
                                 <img src="img/projects/BITMockup.png" class="img-fluid" alt="">
@@ -391,7 +434,9 @@
             </div>
         </div>
     </section>
-    <?php include_once('include/testiFaq.php') ?>
+
+
+    <!-- <?php include_once('include/testiFaq.php') ?> -->
 
 
     <?php include_once('include/footer.php') ?>
@@ -444,5 +489,35 @@ const swiper = new Swiper('.swiper', {
     },
 });
 </script>
+<!-- portfolio project script -->
+<!-- <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectItems = document.querySelectorAll('.project-item');
+    console.log(projectItems)
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+
+            // Get filter value
+            const filterValue = this.dataset.filter;
+
+            projectItems.forEach(item => {
+                if (filterValue === 'all') {
+                    item.classList.remove('hidden');
+                } else {
+                    if (item.dataset.category === filterValue) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                }
+            });
+        });
+    });
+});
+</script> -->
 
 </html>
