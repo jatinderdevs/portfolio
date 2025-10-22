@@ -42,8 +42,7 @@
                            </div>
                        </div>
                        <h2 class="signature">Jatinder Singh</h2>
-                       <a href="img/pdf/jatinder-webdeveloper.pdf" download class="custmbtn">Download Resume <i
-                               class="fa fa-download" aria-hidden="true"></i></a>
+
                    </div>
                </div>
 
