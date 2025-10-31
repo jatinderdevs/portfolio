@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="title" content="Freelance Web Developer Melbourne | JatinderDev">
+
+    <meta property="description"
+        content="Affordable web development, design & digital marketing in Melbourne. Contact JatinderDev!">
+    <meta property="image" content="https://jatinderdev.com.au/img/website.webp">
+    <meta property="url" content="https://jatinderdev.com.au/">
+
     <meta property="og:title" content="Freelance Web Developer Melbourne | JatinderDev">
     <meta property="keyword"
         content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
@@ -25,7 +32,7 @@
             "@type": "3000",
             "addressLocality": "Melbourne",
             "addressRegion": "VIC",
-            "postalCode": "[3000]",
+            "postalCode": "3000",
             "addressCountry": "AU"
         },
         "telephone": "+61 499167608",
@@ -184,7 +191,7 @@
                     <div class="project project-card" data-aos="flip-left">
                         <div class="projectImg">
                             <a href="https://www.internationalstudenttips.com.au/" target="_blank">
-                                <img src="img/projects/ISTMockup.png" class="img-fluid" alt="">
+                                <img src="img/projects/ISTMockup.webp" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="projectTitle">
@@ -208,7 +215,7 @@
                     <div class="project project-card" data-aos="flip-right">
                         <div class="projectImg">
                             <a href="https://www.yarramovers.com.au/" target="_blank">
-                                <img src="img/projects/yaramoversMockup.png" class="img-fluid" alt="">
+                                <img src="img/projects/yaramoversMockup.webp" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="projectTitle">
@@ -280,7 +287,7 @@
                     <div class="project project-card" data-aos="flip-right">
                         <div class="projectImg">
                             <a href="https://www.bit.edu.au/" target="_blank">
-                                <img src="img/projects/BITMockup.png" class="img-fluid" alt="">
+                                <img src="img/projects/BITMockup.webp" class="img-fluid" alt="">
 
                             </a>
 
@@ -444,80 +451,6 @@
 
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-AOS.init();
-$(window).on('load', function() {
-    $(".loader").hide();
-
-
-});
-</script>
-
-<script>
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
-
-    autoplay: {
-        delay: 1500,
-        disableOnInteraction: true,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-
-    // Navigation arrows
-    navigation: {
-        nextEl: '',
-        prevEl: '.swiper-button-prev',
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
-});
-</script>
-<!-- portfolio project script -->
-<!-- <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    const projectItems = document.querySelectorAll('.project-item');
-    console.log(projectItems)
-    filterButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            // Update active button
-            filterButtons.forEach(btn => btn.classList.remove('active'));
-            this.classList.add('active');
-
-            // Get filter value
-            const filterValue = this.dataset.filter;
-
-            projectItems.forEach(item => {
-                if (filterValue === 'all') {
-                    item.classList.remove('hidden');
-                } else {
-                    if (item.dataset.category === filterValue) {
-                        item.classList.remove('hidden');
-                    } else {
-                        item.classList.add('hidden');
-                    }
-                }
-            });
-        });
-    });
-});
-</script> -->
 
 </html>

@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="title" content="SEO & Digital Marketing Melbourne | JatinderDev">
+    <meta property="description"
+        content="Grow your Melbourne business with SEO & digital marketing services by JatinderDev. Contact us!">
+    <meta property="keyword"
+        content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
+    <meta property="image" content="https://jatinderdev.com.au/img/website.webp">
+    <meta property="url" content="https://jatinderdev.com.au/digital-marketing-and-SEO">
+
+
+
     <meta property="og:title" content="SEO & Digital Marketing Melbourne | JatinderDev">
     <meta property="og:description"
         content="Grow your Melbourne business with SEO & digital marketing services by JatinderDev. Contact us!">
@@ -208,7 +218,9 @@
                         <ul class="contactul mt-4">
                             <li> <span><i class="fa fa-phone" aria-hidden="true"></i> </span> <a href="">+61 499 167
                                     608</a></li>
-                            <li> <span><i class="fa fa-envelope"></i></span> <a href="">info@jatinderdev.com.au</a></li>
+                            <li> <span><i class="fa fa-envelope"></i></span> <a href=""
+                                    class="text-lowercase">admin@jatinderdev.com.au</a>
+                            </li>
 
                         </ul>
 
@@ -253,50 +265,5 @@
 
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-AOS.init();
-$(window).on('load', function() {
-    $(".loader").hide();
-
-
-});
-</script>
-
-<script>
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
-
-    autoplay: {
-        delay: 1500,
-        disableOnInteraction: true,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-
-    // Navigation arrows
-    navigation: {
-        nextEl: '',
-        prevEl: '.swiper-button-prev',
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
-});
-</script>
 
 </html>

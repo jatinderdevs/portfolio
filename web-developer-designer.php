@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="title" content="Freelance Web Developer Melbourne | JatinderDev">
+    <meta property="keyword"
+        content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
+    <meta property="description"
+        content="Professional web development & design in Melbourne. Custom websites by JatinderDev. Contact for responsive, SEO-friendly sites!">
+    <meta property="image" content="https://jatinderdev.com.au/img/website.webp">
+    <meta property="url" content="https://jatinderdev.com.au/web-developer-designer">
+
+
+
     <meta property="og:title" content="Freelance Web Developer Melbourne | JatinderDev">
     <meta property="keyword"
         content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
@@ -121,11 +131,12 @@
             <h2 class="subHeading">My Latest <span>Projects</span></h2>
             <br>
             <div class="row">
+
                 <div class="col-md-6">
                     <div class="project" data-aos="flip-left">
                         <div class="projectImg">
                             <a href="https://www.internationalstudenttips.com.au/" target="_blank">
-                                <img src="img/projects/ISTMockup.png" class="img-fluid" alt="">
+                                <img src="img/projects/ISTMockup.webp" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="projectTitle">
@@ -144,11 +155,35 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 " data-category="web-development">
+                    <div class="project project-card" data-aos="flip-right">
+                        <div class="projectImg">
+                            <a href="https://www.dalavoro.com.au/" target="_blank">
+                                <img src="img/projects/dalavoro.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="projectTitle">
+                            <a href="" class="tag">UI/UX</a>
+                            <a href="" class="tag">PHP/MySql</a>
+                            <a href="" class="tag">SEO</a>
+                            <a href="" class="tag">Admin Dashboard</a>
+
+
+                            <div class="flex">
+                                <h4>Dalavoro - Workwear store <br> <small> (online store)</small></h4>
+
+                                <a target="_blank" href="https://www.dalavoro.com.au/" class="btn pbtn"> <i
+                                        class="fa fa-external-link" aria-hidden="true"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6">
                     <div class="project" data-aos="flip-right">
                         <div class="projectImg">
                             <a href="https://www.yarramovers.com.au/" target="_blank">
-                                <img src="img/projects/yaramoversMockup.png" class="img-fluid" alt="">
+                                <img src="img/projects/yaramoversMockup.webp" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="projectTitle">
@@ -170,7 +205,7 @@
                     <div class="project" data-aos="flip-left">
                         <div class="projectImg">
                             <a href="https://www.sit.vic.edu.au/" target="_blank">
-                                <img src="img/projects/SITMockup.png" class="img-fluid" alt="">
+                                <img src="img/projects/SITMockup.webp" class="img-fluid" alt="">
 
                             </a>
 
@@ -194,7 +229,7 @@
                     <div class="project" data-aos="flip-right">
                         <div class="projectImg">
                             <a href="https://www.bit.edu.au/" target="_blank">
-                                <img src="img/projects/BITMockup.png" class="img-fluid" alt="">
+                                <img src="img/projects/BITMockup.webp" class="img-fluid" alt="">
 
                             </a>
 
@@ -303,50 +338,5 @@
 
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-AOS.init();
-$(window).on('load', function() {
-    $(".loader").hide();
-
-
-});
-</script>
-
-<script>
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
-
-    autoplay: {
-        delay: 1500,
-        disableOnInteraction: true,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-
-    // Navigation arrows
-    navigation: {
-        nextEl: '',
-        prevEl: '.swiper-button-prev',
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
-});
-</script>
 
 </html>

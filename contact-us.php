@@ -95,7 +95,7 @@
                         <h4> <i class="fa fa-whatsapp" aria-hidden="true"></i> <br> contact</h4>
 
                         <a href="https://api.whatsapp.com/send?phone=+61499167608&amp;text=Hi, I have query regarding My website"
-                            class="text-primary">0499 167 608</a>
+                            class="text-primary">+61 499 167 608</a>
 
 
 
@@ -125,24 +125,6 @@
 
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-AOS.init();
-$(window).on('load', function() {
-    $(".loader").hide();
-
-
-});
-</script>
-
 
 
 </html>
