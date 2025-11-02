@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact JatinderDev | Web Developer Melbourne</title>
+    <meta name="title" content="Freelance Web Developer Melbourne | JatinderDev">
+    <meta name="description"
+        content="Get in touch with JatinderDev for web development, design, or digital marketing in Melbourne. Free consultations available!">
+    <meta name="image" content="https://jatinderdev.com.au/img/website.webp">
+    <meta name="url" content="https://jatinderdev.com.au/contact-us">
+    <meta name="robots" content="index, follow">
+
+
+
     <meta property="og:title" content="Freelance Web Developer Melbourne | JatinderDev">
     <meta property="og:description"
         content="Get in touch with JatinderDev for web development, design, or digital marketing in Melbourne. Free consultations available!">

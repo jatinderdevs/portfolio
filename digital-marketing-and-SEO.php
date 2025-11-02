@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="title" content="SEO & Digital Marketing Melbourne | JatinderDev">
-    <meta property="description"
+    <meta name="title" content="SEO & Digital Marketing Melbourne | JatinderDev">
+    <meta name="description"
         content="Grow your Melbourne business with SEO & digital marketing services by JatinderDev. Contact us!">
-    <meta property="keyword"
+    <meta name="keyword"
         content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
-    <meta property="image" content="https://jatinderdev.com.au/img/website.webp">
-    <meta property="url" content="https://jatinderdev.com.au/digital-marketing-and-SEO">
+    <meta name="image" content="https://jatinderdev.com.au/img/website.webp">
+    <meta name="url" content="https://jatinderdev.com.au/digital-marketing-and-SEO">
 
 
 

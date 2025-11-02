@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="title" content="Freelance Web Developer Melbourne | JatinderDev">
-    <meta property="keyword"
+    <meta name="title" content="Freelance Web Developer Melbourne | JatinderDev">
+    <meta name="keyword"
         content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
-    <meta property="description"
+    <meta name="description"
         content="Professional web development & design in Melbourne. Custom websites by JatinderDev. Contact for responsive, SEO-friendly sites!">
-    <meta property="image" content="https://jatinderdev.com.au/img/website.webp">
-    <meta property="url" content="https://jatinderdev.com.au/web-developer-designer">
+    <meta name="image" content="https://jatinderdev.com.au/img/website.webp">
+    <meta name="url" content="https://jatinderdev.com.au/web-developer-designer">
 
 
 
