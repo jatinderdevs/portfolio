@@ -96,74 +96,73 @@
     <img src="img/servicebar.png" class="img-fluid" width="100%" alt="">
     <section class="services" id="services">
         <div class="container">
-            <div class="row  align-items-center">
+            <div class="row align-items-center">
                 <div class="col-md-12">
-                    <h2 class="subHeading">My <span> services</span></h2>
+                    <h2 class="subHeading">My <span>services</span></h2>
                     <br>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class=" col-md-6">
                             <div class="servicecard" data-aos="zoom-in">
                                 <div class="cardimg">
-                                    <img src="img/coding.png" class="img-fluid" alt="">
-
+                                    <img src="img/coding.png" class="img-fluid" alt="Web Development Icon">
                                 </div>
                                 <div class="cardtxt">
                                     <h4>web designer & developer</h4>
-                                    <p>Create responsive, user-friendly websites tailored to your business needs.
-                                    </p>
+                                    <p>Create responsive, user-friendly websites tailored to your business needs.</p>
                                     <a href="web-developer-designer.php">Explore <i class="fa fa-arrow-right"
                                             aria-hidden="true"></i></a>
-
-
-
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class=" col-md-6">
                             <div class="servicecard" data-aos="zoom-in">
                                 <div class="cardimg">
-                                    <img src="img/graphic-design.png" class="img-fluid" alt="">
-
+                                    <img src="img/application.png" class="img-fluid" alt="Custom CMS Icon">
+                                    <!-- Add your new icon here -->
+                                </div>
+                                <div class="cardtxt">
+                                    <h4>Custom CMS Solutions</h4>
+                                    <p>Tailored content management systems for easy
+                                        content updates, admin dashboards, and full control.</p>
+                                    <a href="custom-cms.php">Explore <i class="fa fa-arrow-right"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-md-6">
+                            <div class="servicecard" data-aos="zoom-in">
+                                <div class="cardimg">
+                                    <img src="img/graphic-design.png" class="img-fluid" alt="Graphic Design Icon">
                                 </div>
                                 <div class="cardtxt">
                                     <h4>graphic design</h4>
                                     <p>Professional graphic designs for your service/business branding; providing Logo,
-                                        Flyer, Pamplet design servivces
-                                    </p>
-                                    <a href="">Explore <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-
-
+                                        Flyer, Pamphlet design services.</p>
+                                    <a href="graphic-design.php">Explore <i class="fa fa-arrow-right"
+                                            aria-hidden="true"></i></a> <!-- Update link when page is ready -->
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class=" col-md-6">
                             <div class="servicecard" data-aos="zoom-in">
                                 <div class="cardimg">
-                                    <img src="img/bullhorn.png" class="img-fluid" alt="">
+                                    <img src="img/bullhorn.png" class="img-fluid" alt="Digital Marketing Icon">
                                 </div>
                                 <div class="cardtxt">
                                     <h4>Digital Marketing & SEO</h4>
-                                    <p>offers expert SEO and social media marketing services that drive traffic,
-                                        increase brand visibility.
-
-                                    </p>
+                                    <p>Expert SEO and social media marketing services that drive traffic and increase
+                                        brand visibility.</p>
                                     <a href="digital-marketing-and-SEO.php">Explore <i class="fa fa-arrow-right"
                                             aria-hidden="true"></i></a>
-
                                 </div>
                             </div>
                         </div>
 
-
-
                     </div>
-
                 </div>
-
             </div>
         </div>
     </section>
-
 
     <!-- about us section -->
     <?php include_once('include/about.php') ?>
