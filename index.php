@@ -36,7 +36,7 @@
             "addressCountry": "AU"
         },
         "telephone": "+61 499167608",
-        "email": "admin@jatinderdev.com.au",
+        "email": "contact@jatinderdev.com.au",
         "url": "https://jatinderdev.com.au",
         "sameAs": [
             "https://www.linkedin.com/in/jatinderdevs/",
@@ -177,178 +177,17 @@
     <section class="projects" id="portfolio">
         <div class="container">
             <h5 class="m-0">-Portfolio</h5>
-            <h2 class="subHeading">My Latest <span>Projects</span></h2>
+            <h2 class="subHeading">My <span>Projects</span></h2>
 
-            <!-- <div class="filter-buttons text-center py-4">
-                <button class="btn pbtn filter-btn active" data-filter="all">All</button>
-                <button class="btn pbtn filter-btn" data-filter="web-design">Web Design</button>
-                <button class="btn pbtn filter-btn" data-filter="web-development">Web Development</button>
-                <button class="btn pbtn filter-btn" data-filter="graphic-design">Graphic Design</button>
-            </div> -->
+            <div class="filter-buttons text-center py-4">
+                <button class="btn  pCateBtn" onclick="loadProject('RTO College')">VET
+                    Colleges</button>
+
+                <button class="btn pCateBtn" onclick="loadProject('Web Application')">Web Application</button>
+                <button class="btn pCateBtn" onclick="loadProject('website')">Website</button>
+            </div>
             <div class="row" id="project-grid">
-                <div class="col-md-6 project-item" data-category="web-development">
-                    <div class="project project-card" data-aos="flip-left">
-                        <div class="projectImg">
-                            <a href="https://www.internationalstudenttips.com.au/" target="_blank">
-                                <img src="img/projects/ISTMockup.webp" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">UI/UX</a>
-                            <a href="" class="tag">Admin Dashboard</a>
-                            <a href="" class="tag">Node.js/MongoDB</a>
-                            <a href="" class="tag">SEO</a>
 
-
-                            <div class="flex">
-                                <h4>International Student Tips | IST<br> <small> (Blog)</small></h4>
-
-                                <a href="https://www.internationalstudenttips.com.au/" target="_blank" class="btn pbtn">
-                                    <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 project-item" data-category="web-design">
-                    <div class="project project-card" data-aos="flip-right">
-                        <div class="projectImg">
-                            <a href="https://www.yarramovers.com.au/" target="_blank">
-                                <img src="img/projects/yaramoversMockup.webp" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">UI/UX</a>
-                            <a href="" class="tag">Website Design</a>
-                            <a href="" class="tag">SEO</a>
-                            <a href="" class="tag">Digital Marketing</a>
-
-                            <div class="flex">
-                                <h4>Yarramovers - A Moving Company <br> <small> (website)</small></h4>
-
-                                <a href="https://www.yarramovers.com.au/" class="btn pbtn"> <i
-                                        class="fa fa-external-link" aria-hidden="true"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 project-item" data-category="web-development">
-                    <div class="project project-card" data-aos="flip-right">
-                        <div class="projectImg">
-                            <a href="https://www.dalavoro.com.au/" target="_blank">
-                                <img src="img/projects/dalavoro.png" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">UI/UX</a>
-                            <a href="" class="tag">PHP/MySql</a>
-                            <a href="" class="tag">SEO</a>
-                            <a href="" class="tag">Admin Dashboard</a>
-
-
-                            <div class="flex">
-                                <h4>Dalavoro - Workwear store <br> <small> (online store)</small></h4>
-
-                                <a target="_blank" href="https://www.dalavoro.com.au/" class="btn pbtn"> <i
-                                        class="fa fa-external-link" aria-hidden="true"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 project-item" data-category="web-development">
-                    <div class="project project-card" data-aos="flip-left">
-                        <div class="projectImg">
-                            <a href="https://jobtrack-04575f0ac8f5.herokuapp.com/" target="_blank">
-                                <img src="img/projects/jobtrack.png" class="img-fluid" alt="">
-
-                            </a>
-
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">UI/UX</a>
-                            <a href="" class="tag">Website Design</a>
-                            <a href="" class="tag">Node.js/MongoDB</a>
-
-
-                            <div class="flex">
-                                <h4>Construction Job Track <br> <small> (web Application)</small></h4>
-
-                                <a href="https://jobtrack-04575f0ac8f5.herokuapp.com/" target="_blank" class="btn pbtn">
-                                    <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 project-item" data-category="web-design">
-                    <div class="project project-card" data-aos="flip-right">
-                        <div class="projectImg">
-                            <a href="https://www.bit.edu.au/" target="_blank">
-                                <img src="img/projects/BITMockup.webp" class="img-fluid" alt="">
-
-                            </a>
-
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">UI/UX</a>
-                            <a href="" class="tag">Website Design</a>
-                            <a href="" class="tag">SEO</a>
-
-                            <div class="flex">
-                                <h4>Brighton Institute of Technology <br> <small> (website)</small></h4>
-
-                                <a href="https://www.bit.edu.au/" target="_blank" class="btn pbtn"> <i
-                                        class="fa fa-external-link" aria-hidden="true"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-left">
-                        <div class="projectImg">
-                            <a href="https://www.cornell.vic.edu.au/" target="_blank">
-                                <img src="img/projects/CITMockup.png" class="img-fluid" alt="">
-
-                            </a>
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">UI/UX</a>
-                            <a href="" class="tag">Website Design</a>
-                            <a href="" class="tag">SEO</a>
-
-                            <div class="flex">
-                                <h4>Cornell Institute of Training <br> <small> (website)</small></h4>
-
-                                <a href="https://www.cornell.vic.edu.au/" target="_blank" class="btn pbtn"> <i
-                                        class="fa fa-external-link" aria-hidden="true"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-right">
-                        <div class="">
-                            <img src="img/digital-marketing/BITMarketing.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">Digital Marketing</a>
-
-                            <a href="" class="tag">Website Design</a>
-
-                            <div class="flex">
-                                <h4>Brighton Institute of Technology</h4>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
 
             </div>
         </div>
@@ -448,7 +287,57 @@
     <?php include_once('include/footer.php') ?>
 
 
+    <script>
+    const projectGrid = document.getElementById("project-grid");
+    loadProject('RTO College')
+    async function loadProject(mainCate) {
 
+        const data = await fetch('projects.json');
+        const projects = await data.json();
+        const filterData = projects.filter(p => {
+            return mainCate === p.mainCate
+        });
+
+        let html = "";
+        filterData.forEach(project => {
+            html += `
+             <div class="col-md-6 project-item" data-category="web-development">
+                    <div class="project project-card" data-aos="flip-left">
+                        <div class="projectImg">
+                            <a href="${project.link}" target="_blank">
+                            <img src="${project.img}" class="img-fluid ${(project.mainCate==="Web Application")?" ":"move-up"}" alt="">
+                                
+                            </a>
+                            <div class="layer">
+                                <a href="${project.link}" target="_blank"
+                                    class="btn btn-block pbtn">
+                                    <i class="fa fa-external-link" aria-hidden="true"></i> Visit Live</a>
+                            </div>
+
+                        </div>
+                        <div class="projectTitle">
+
+
+
+                            <div class="projectTxt">
+
+                                <h4>${project.ProjectName}</h4>
+                                <p class="text-success small my-2">${project.category}</p>
+                                <p>${project.desc}</p>
+
+                               ${project.tags.map(tag => `<a href="" class="tag">${tag}</a>`).join(' ')}
+                            
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>`;
+        });
+        projectGrid.innerHTML = html;
+
+    }
+    </script>
 </body>
 
 

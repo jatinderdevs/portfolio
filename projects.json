@@ -1,0 +1,102 @@
+[
+    
+{
+    "ProjectName":"JDshopfrontandshutter",
+    "img":"img/projects/jdhshutter.webp",
+    "link":"https://www.jdshopfrontandshutter.co.uk/",
+    "category":"Service Based Compnay",
+    "desc":"A London based service based company create with modern and responsive design. easy to navigate with clean UI to genrate more leads from customers",
+    "tags":["UI/UX","Digital Marketing", "SEO"] ,  
+    "mainCate":"website" 
+},
+    {
+    "ProjectName":"International Student Tips | IST",
+    "img":"img/projects/ist.webp",
+    "link":"https://www.internationalstudenttips.com.au/",
+    "category":"Blog + Admin Dashboard",
+    "desc":"Modern blog for international students with full admin dashboard, Node.js backend and SEO-optimised content system.",
+    "tags":["UI/UX","Admin Dashboard", "Node.js/MongoDB", "SEO"],   
+    "mainCate":"website"
+},
+{
+    "ProjectName":"Yarramovers",
+    "img":"img/projects/yarramovers.webp",
+    "link":"https://www.yarramovers.com.au/",
+    "category":"Moving Company Website",
+    "desc":"Full-service moving website with online booking, SEO, and digital marketing integration for Melbourne clients.",
+    "tags":["UI/UX","Digital Marketing", "SEO"] ,  
+    "mainCate":"website" 
+}
+,
+{
+    "ProjectName":"RTO Commissions CMS",
+    "img":"img/projects/rtocommissions.png",
+    "link":"https://www.rtocommissions.com.au/",
+    "category":"CMS Software",
+    "desc":"A application for the RTO/VET colleges to mangage finacne and partners data and manage with role based system",
+    "tags":["PHP","MySQL", "E-Commerce"],
+    "mainCate":"Web Application" 
+}
+,
+{
+    "ProjectName":"Dalavoro Workwear Store",
+    "img":"img/projects/dalavoro.webp",
+    "link":"https://www.dalavoro.com.au/",
+    "category":"Online E-commerce Store",
+    "desc":"Complete PHP/MySQL online store with admin dashboard, product catalogue and secure checkout.",
+    "tags":["PHP","MySQL", "E-Commerce"],
+    "mainCate":"Web Application" 
+}
+,
+{
+    "ProjectName":"Construction Job Track",
+    "img":"img/projects/jobtrack.webp",
+    "link":"https://jobtrack-04575f0ac8f5.herokuapp.com/",
+    "category":"Web Application",
+    "desc":"Powerful job tracking system for construction companies with real-time updates and admin panel.",
+    "tags":["UI/UX","Admin Dashboard", "Node.js/MongoDB"] ,
+    "mainCate":"Web Application"    
+}
+,
+{
+    "ProjectName":"Australian International Institute of Technology (AIIT)",
+    "img":"img/projects/aiit.webp",
+    "link":"https://www.sit.vic.edu.au/",
+    "category":"VET College",
+    "desc":"vocational education website featuring accredited programs, mobile-friendly structure to boost enquiries and brand trust.",
+    "tags":["UI/UX","Website Design", "SEO"]   ,
+    "mainCate":"RTO College"         
+}
+,
+{
+    "ProjectName":"State Institute of Training",
+    "img":"img/projects/sit.webp",
+    "link":"https://www.sit.vic.edu.au/",
+    "category":"VET College",
+    "desc":"Modern VET college platform featuring detailed course catalogues,  optimised design for better understanding and search visibility.",
+    "tags":["UI/UX","Website Design", "SEO"]   ,
+    "mainCate":"RTO College"         
+}
+,
+{
+    "ProjectName":"Cornell Institute of Training",
+    "img":"img/projects/cornell.webp",
+    "link":"https://www.cornell.vic.edu.au/",
+    "category":"VET College",
+    "desc":"Welcoming and well-structured training website built to showcase courses, build trust and improve search visibility for prospective students.",
+    "tags":["UI/UX","Website Design", "SEO"],
+    "mainCate":"RTO College"      
+}
+,
+{
+    "ProjectName":"Brighton Institute of Technology",
+    "img":"img/projects/bit.webp",
+    "link":"https://www.bit.edu.au/",
+    "category":"VET College",
+    "desc":"Clean and professional education platform with course showcases, mobile-friendly design and optimised structure to help BIT attract more enrolments.",
+    "tags":["UI/UX","Website Design", "SEO"]   ,
+    "mainCate":"RTO College"         
+}
+
+
+]
