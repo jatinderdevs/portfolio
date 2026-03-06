@@ -61,37 +61,11 @@
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
   </script>
-  <script async src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
 
-  <script>
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
 
-    autoplay: {
-        delay: 1500,
-        disableOnInteraction: true,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
 
-    // Navigation arrows
-    navigation: {
-        nextEl: '',
-        prevEl: '.swiper-button-prev',
-    },
-
-    // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
-});
-  </script>
 
 
   <!--Start of Tawk.to Script-->
@@ -146,6 +120,55 @@ function onSubmit(token) {
     } else {
         document.getElementById("query-form").reportValidity(); // Show validation errors
     }
+
+}
+//projects import function
+async function loadProject(mainCate) {
+    const projectGrid = document.getElementById("project-grid");
+
+    const data = await fetch('./projects.json');
+    const projects = await data.json();
+    const filterData = projects.filter(p => {
+        return mainCate === p.mainCate
+    });
+
+    let html = "";
+    filterData.forEach(project => {
+        html += `
+             <div class="col-md-6 project-item" data-category="web-development">
+                    <div class="project project-card" data-aos="flip-left">
+                        <div class="projectImg">
+                            <a href="${project.link}" target="_blank">
+                            <img src="${project.img}" class="img-fluid ${(project.mainCate==="Web Application")?" ":"move-up"}" alt="">
+                                
+                            </a>
+                            <div class="layer">
+                                <a href="${project.link}" target="_blank"
+                                    class="btn btn-block pbtn">
+                                    <i class="fa fa-external-link" aria-hidden="true"></i> Visit Live</a>
+                            </div>
+
+                        </div>
+                        <div class="projectTitle">
+
+
+
+                            <div class="projectTxt">
+
+                                <h4>${project.ProjectName}</h4>
+                                <p class="text-success small my-2">${project.category}</p>
+                                <p>${project.desc}</p>
+
+                               ${project.tags.map(tag => `<a href="" class="tag">${tag}</a>`).join(' ')}
+                            
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>`;
+    });
+    projectGrid.innerHTML = html;
 
 }
   </script>

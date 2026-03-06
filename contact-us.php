@@ -19,7 +19,7 @@
     <meta property="og:description"
         content="Get in touch with JatinderDev for web development, design, or digital marketing in Melbourne. Free consultations available!">
     <meta property="og:image" content="https://jatinderdev.com.au/img/website.webp">
-    <meta property="og:url" content="https://jatinderdev.com.au/contact-us">
+    <meta property="og:url" content="https://jatinderdev.com.au/contact-us.php">
     <meta name="robots" content="index, follow">
 
     <?php include_once('include/linkfiles.php') ?>

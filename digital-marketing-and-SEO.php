@@ -19,7 +19,7 @@
     <meta property="og:description"
         content="Grow your Melbourne business with SEO & digital marketing services by JatinderDev. Contact us!">
     <meta property="og:image" content="https://jatinderdev.com.au/img/website.webp">
-    <meta property="og:url" content="https://jatinderdev.com.au/digital-marketing-and-SEO">
+    <meta property="og:url" content="https://jatinderdev.com.au/digital-marketing-and-SEO.php">
     <meta name="robots" content="index, follow">
     <title>Web Developer & Designer Melbourne | JatinderDev</title>
 

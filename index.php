@@ -124,7 +124,7 @@
                                     <h4>Custom CMS Solutions</h4>
                                     <p>Tailored content management systems for easy
                                         content updates, admin dashboards, and full control.</p>
-                                    <a href="custom-cms.php">Explore <i class="fa fa-arrow-right"
+                                    <a href="custom-cms-solutions.php">Explore <i class="fa fa-arrow-right"
                                             aria-hidden="true"></i></a>
                                 </div>
                             </div>
@@ -138,7 +138,7 @@
                                     <h4>graphic design</h4>
                                     <p>Professional graphic designs for your service/business branding; providing Logo,
                                         Flyer, Pamphlet design services.</p>
-                                    <a href="graphic-design.php">Explore <i class="fa fa-arrow-right"
+                                    <a href="digital-marketing-and-SEO.php">Explore <i class="fa fa-arrow-right"
                                             aria-hidden="true"></i></a> <!-- Update link when page is ready -->
                                 </div>
                             </div>
@@ -288,55 +288,7 @@
 
 
     <script>
-    const projectGrid = document.getElementById("project-grid");
     loadProject('RTO College')
-    async function loadProject(mainCate) {
-
-        const data = await fetch('projects.json');
-        const projects = await data.json();
-        const filterData = projects.filter(p => {
-            return mainCate === p.mainCate
-        });
-
-        let html = "";
-        filterData.forEach(project => {
-            html += `
-             <div class="col-md-6 project-item" data-category="web-development">
-                    <div class="project project-card" data-aos="flip-left">
-                        <div class="projectImg">
-                            <a href="${project.link}" target="_blank">
-                            <img src="${project.img}" class="img-fluid ${(project.mainCate==="Web Application")?" ":"move-up"}" alt="">
-                                
-                            </a>
-                            <div class="layer">
-                                <a href="${project.link}" target="_blank"
-                                    class="btn btn-block pbtn">
-                                    <i class="fa fa-external-link" aria-hidden="true"></i> Visit Live</a>
-                            </div>
-
-                        </div>
-                        <div class="projectTitle">
-
-
-
-                            <div class="projectTxt">
-
-                                <h4>${project.ProjectName}</h4>
-                                <p class="text-success small my-2">${project.category}</p>
-                                <p>${project.desc}</p>
-
-                               ${project.tags.map(tag => `<a href="" class="tag">${tag}</a>`).join(' ')}
-                            
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>`;
-        });
-        projectGrid.innerHTML = html;
-
-    }
     </script>
 </body>
 

@@ -1,6 +1,6 @@
 <header data-aos="fade-down">
     <nav class="navbar navbar-expand-lg navbar-dark custmnav">
-        <a class="navbar-brand" href="index">
+        <a class="navbar-brand" href="index.php">
             <strong class="logo_txt"> ]JATINDERDEV[</strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -19,13 +19,13 @@
                         Services
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="web-developer-designer">web designer & developer</a>
+                        <a class="dropdown-item" href="web-developer-designer.php">web designer & developer</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="custom-cms-solutions">Custom CMS Solutions</a>
+                        <a class="dropdown-item" href="custom-cms-solutions.php">Custom CMS Solutions</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="digital-marketing-and-SEO">Digital Marketing & SEO</a>
+                        <a class="dropdown-item" href="digital-marketing-and-SEO.php">Digital Marketing & SEO</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="digital-marketing-and-SEO">Graphic Design</a>
+                        <a class="dropdown-item" href="digital-marketing-and-SEO.php">Graphic Design</a>
                     </div>
 
                 </li>
@@ -37,15 +37,15 @@
                     <a class="nav-link" href="#about">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact-us">contact</a>
+                    <a class="nav-link" href="contact-us.php">contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact-us">blog</a>
+                    <a class="nav-link" href="contact-us.php">blog</a>
                 </li>
             </ul>
             <div class="form-inline my-2 my-lg-0">
 
-                <a href="contact-us" class="custmbtn_small">Contact us</a>
+                <a href="contact-us.php" class="custmbtn_small">Contact us</a>
             </div>
         </div>
     </nav>

@@ -17,7 +17,7 @@
     <meta property="og:description"
         content="Professional customized CMS development in Melbourne. Tailored, scalable content management systems with user-friendly admin panels by JatinderDev. Contact for efficient solutions!">
     <meta property="og:image" content="https://jatinderdev.com.au/img/website.webp">
-    <meta property="og:url" content="https://jatinderdev.com.au/custom-cms-solutions">
+    <meta property="og:url" content="https://jatinderdev.com.au/custom-cms-solutions.php">
     <meta name="robots" content="index, follow">
     <title>Customized CMS Solutions Melbourne | JatinderDev</title>
 
@@ -115,72 +115,9 @@
             <h5 class="m-0">-Portfolio</h5>
             <h2 class="subHeading">Relevant <span>CMS & Dashboard</span> Projects</h2>
             <br>
-            <div class="row">
-                <!-- Projects that involve custom CMS / admin dashboards -->
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-left">
-                        <div class="projectImg">
-                            <a href="https://www.dalavoro.com.au/" target="_blank">
-                                <img src="img/projects/dalavoro.png" class="img-fluid" alt="Dalavoro Custom Admin">
-                            </a>
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">Custom CMS</a>
-                            <a href="" class="tag">PHP/MySQL</a>
-                            <a href="" class="tag">Admin Dashboard</a>
-                            <div class="flex">
-                                <h4>Dalavoro – Workwear Online Store<br><small>(Custom Admin Panel)</small></h4>
-                                <a href="https://www.dalavoro.com.au/" target="_blank" class="btn pbtn">
-                                    <i class="fa fa-external-link" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row" id="project-grid">
 
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-right">
-                        <div class="projectImg">
-                            <a href="https://www.internationalstudenttips.com.au/" target="_blank">
-                                <img src="img/projects/ISTMockup.webp" class="img-fluid" alt="IST Blog CMS">
-                            </a>
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">Custom CMS</a>
-                            <a href="" class="tag">Node.js/MongoDB</a>
-                            <a href="" class="tag">Admin Dashboard</a>
-                            <div class="flex">
-                                <h4>International Student Tips<br><small>(Blog with Custom Admin)</small></h4>
-                                <a href="https://www.internationalstudenttips.com.au/" target="_blank" class="btn pbtn">
-                                    <i class="fa fa-external-link" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-6">
-                    <div class="project" data-aos="flip-left">
-                        <div class="projectImg">
-                            <a href="https://jobtrack-04575f0ac8f5.herokuapp.com/" target="_blank">
-                                <img src="img/projects/jobtrack.png" class="img-fluid" alt="Job Track App">
-                            </a>
-                        </div>
-                        <div class="projectTitle">
-                            <a href="" class="tag">Custom Web App</a>
-                            <a href="" class="tag">Node.js/MongoDB</a>
-                            <a href="" class="tag">Admin Panel</a>
-                            <div class="flex">
-                                <h4>Construction Job Track<br><small>(Full Custom Dashboard)</small></h4>
-                                <a href="https://jobtrack-04575f0ac8f5.herokuapp.com/" target="_blank" class="btn pbtn">
-                                    <i class="fa fa-external-link" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Add more relevant projects here if you have them -->
             </div>
         </div>
     </section>
@@ -234,7 +171,9 @@
     </section>
 
     <?php include_once('include/footer.php') ?>
-
+    <script>
+    loadProject('Web Application')
+    </script>
 </body>
 
 </html>
