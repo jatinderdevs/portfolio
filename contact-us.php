@@ -48,7 +48,7 @@
                 <div class="col-md-7">
                     <div class="contactform" data-aos="fade-left">
                         <h2 class="subHeading">- How can I help you?</h2>
-                        <form action="email" method="post" id="query-form">
+                        <form action="email.php" method="post" id="query-form">
                             <label for="">name</label>
                             <input type="text" name="name" placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">
@@ -89,7 +89,7 @@
 
                         <h4> <i class="fa fa-envelope-o" aria-hidden="true"></i> <br> Email</h4>
 
-                        <a href="mailto:admin@jatinderdev.com.au" class="text-primary">admin@jatinderdev.com.au</a>
+                        <a href="mailto:contact@jatinderdev.com.au" class="text-primary">contact@jatinderdev.com.au</a>
 
 
 

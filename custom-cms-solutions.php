@@ -136,13 +136,13 @@
                             <li><span><i class="fa fa-phone" aria-hidden="true"></i></span> <a
                                     href="tel:+61499167608">+61 499 167 608</a></li>
                             <li><span><i class="fa fa-envelope"></i></span> <a
-                                    href="mailto:admin@jatinderdev.com.au">admin@jatinderdev.com.au</a></li>
+                                    href="mailto:contact@jatinderdev.com.au">contact@jatinderdev.com.au</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-7">
                     <div class="contactform" data-aos="fade-left">
-                        <form action="email" method="post" id="query-form">
+                        <form action="email.php" method="post" id="query-form">
                             <label for="">name</label>
                             <input type="text" name="name" placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">

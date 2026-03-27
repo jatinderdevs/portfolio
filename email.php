@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $captchaSuccess = json_decode($verifyResult);
 
     if (!$captchaSuccess->success) {
-        header("Location: contact.php?status=error&message=" . urlencode("reCAPTCHA verification failed."));
+        header("Location: contact-us.php?status=error&message=" . urlencode("reCAPTCHA verification failed."));
         exit();
     }
 //    cpatcha end
@@ -106,7 +106,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     } catch (Exception $e) {
         echo urlencode("Mail could not be sent. Error: {$mail->ErrorInfo}");
-        //header("Location: contact.php?status=error&message=" . urlencode("Mail could not be sent. Error: {$mail->ErrorInfo}"));
+        header("Location: contact-us.php?status=error&message=" . urlencode("Mail could not be sent. Error: {$mail->ErrorInfo}"));
         exit();
     }
 } else {

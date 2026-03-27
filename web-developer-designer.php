@@ -158,7 +158,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="contactform" data-aos="fade-left">
-                        <form action="email" method="post" id="query-form">
+                        <form action="email.php" method="post" id="query-form">
                             <label for="">name</label>
                             <input type="text" name="name" placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">

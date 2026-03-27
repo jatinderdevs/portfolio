@@ -132,12 +132,13 @@
                         <div class=" col-md-6">
                             <div class="servicecard" data-aos="zoom-in">
                                 <div class="cardimg">
-                                    <img src="img/graphic-design.png" class="img-fluid" alt="Graphic Design Icon">
+                                    <img src="img/rto.png" class="img-fluid" alt="Graphic Design Icon">
                                 </div>
                                 <div class="cardtxt">
-                                    <h4>graphic design</h4>
-                                    <p>Professional graphic designs for your service/business branding; providing Logo,
-                                        Flyer, Pamphlet design services.</p>
+                                    <h4>RTO Web Services</h4>
+                                    <p>with 3+ years inside the VET industry. I
+                                        understand ASQA obligations, and exactly what a
+                                        Registered Training Organisation needs online — not just what looks good.</p>
                                     <a href="digital-marketing-and-SEO.php">Explore <i class="fa fa-arrow-right"
                                             aria-hidden="true"></i></a> <!-- Update link when page is ready -->
                                 </div>
@@ -196,7 +197,7 @@
         <div class="container">
             <h2 class="subHeading"><span>Why Choose</span> Services</h2>
             <br>
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-4">
                     <div class="whychoose local">
                         <img src="img/australia.png" alt="">
@@ -215,10 +216,10 @@
                 </div>
                 <div class="col-md-4">
                     <div class="whychoose local">
-                        <img src="img/save-money.png" alt="">
-                        <h5>No Recurring Fees</h5>
-                        <p>Enjoy a straightforward, one-time flat fee with no monthly charges. Additionally, I can
-                            provide code and assets on demand for your convenience.</p>
+                        <img src="img/team.png" alt="">
+                        <h5>On Going Support</h5>
+                        <p>After launch, we're still by your side — handling technical updates, content changes, and
+                            continuous improvements to help your website grow.</p>
                     </div>
                 </div>
 
@@ -240,7 +241,7 @@
                             <li> <span><i class="fa fa-phone" aria-hidden="true"></i> </span> <a href="">+61 499 167
                                     608</a></li>
                             <li> <span><i class="fa fa-envelope"></i></span> <a href=""
-                                    class="text-lowercase">admin@jatinderdev.com.au</a>
+                                    class="text-lowercase">contact@jatinderdev.com.au</a>
                             </li>
 
                         </ul>
@@ -249,7 +250,7 @@
                 </div>
                 <div class="col-md-7">
                     <div class="contactform" data-aos="fade-left">
-                        <form action="email" method="post" id="query-form">
+                        <form action="email.php" method="post" id="query-form">
                             <label for="">name</label>
                             <input type="text" name="name" placeholder="Doe John" id="name" class="txtbox">
                             <div class="row">

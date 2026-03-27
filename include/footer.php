@@ -12,12 +12,13 @@
               <div class="col-md-4">
                   <h5>Services</h5>
                   <ul class="footUl">
-                      <li> <a href="web-developer-designer"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i> Web
+                      <li> <a href="web-developer-designer.php"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                              Web
                               designer & developer</a></li>
-                      <li> <a href="digital-marketing-and-SEO"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-                              Digital Marketing & SEO</a></li>
-                      <li> <a href="digital-marketing-and-SEO"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-                              Graphic Design</a></li>
+                      <li> <a href="rto-website-design.php"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                              RTO Website Services</a></li>
+                      <li> <a href="custom-cms-solutions.php"> <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                              Custom CMS Solutions</a></li>
                   </ul>
               </div>
               <div class="col-md-4">
@@ -47,7 +48,7 @@
   </footer>
   <div class="container-fluid">
       <div class="flex p-2" style="background: #dfdfdf;">
-          <p class="m-0">All rights reserved.&copy; 2025 Jatinder Singh</p>
+          <p class="m-0">All rights reserved.&copy; 2026 Jatinder Singh</p>
           <p class="m-0">Made with <strong class="text-danger"><i class="fa fa-heart" aria-hidden="true"></i></strong>
               in Melbourne,AU </p>
       </div>
