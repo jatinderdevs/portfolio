@@ -16,7 +16,7 @@
     <meta property="og:description"
         content="Specialist RTO website design in Melbourne. ASQA-compliant websites for registered training organisations and VET colleges. 3+ years VET industry experience.">
     <meta property="og:image" content="https://jatinderdev.com.au/img/website.webp">
-    <meta property="og:url" content="https://jatinderdev.com.au/rto-website-design-melbourne">
+    <meta property="og:url" content="https://jatinderdev.com.au/rto-website-design-melbourne.php">
     <meta name="robots" content="index, follow">
 
     <!-- Schema Markup for Local SEO -->

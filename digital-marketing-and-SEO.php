@@ -11,7 +11,7 @@
     <meta name="keyword"
         content="web developer Melbourne, web design Melbourne, digital marketing Melbourne, freelance web development">
     <meta name="image" content="https://jatinderdev.com.au/img/website.webp">
-    <meta name="url" content="https://jatinderdev.com.au/digital-marketing-and-SEO">
+    <meta name="url" content="https://jatinderdev.com.au/digital-marketing-and-SEO.php">
 
 
 
