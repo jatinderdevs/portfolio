@@ -61,15 +61,17 @@
     <section class="head">
         <div class="container">
             <?php include_once('include/header.php') ?>
-            <div class="row align-items-center mt-3">
-                <div class="col-md-7">
+            <div class="row align-items-center my-5">
+                <div class="col-md-12 text-center">
                     <div class="bannertxt" data-aos="fade-right">
-                        <h1>Freelance <span>Web Developer </span> & <span> Designer</span> in Melbourne
+                        <h2 class="signaturemain">welcome</h2>
+                        <h1 class="indexHeading"><span id="typed-text"></span><span class="cursor">|</span>
                             <!-- I am Jatinder Singh, <br>
                      <span>   Web Developer & Designer </span><br>
                         Based in Melbourne. -->
                         </h1>
-                        <p>
+                        <h4>Freelance Web Developer & Designer in Melbourne</h4>
+                        <p class="py-3">
                             Hey, I’m <strong> Jatinder Singh</strong>, a Melbourne-based freelance web developer and
                             designer with 4 years of experience. I create responsive websites and custom web apps,
                             specializing modern designs and customize applications. I also offer digital marketing,
@@ -78,22 +80,29 @@
                             Contact me for a free quote!
 
                         </p>
-                        <a target="_blank"
-                            href="https://api.whatsapp.com/send?phone=+61499167608&text=Hi, I have query regarding My website"
-                            class=" custmbtn">Let's Connect &nbsp;<i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <div class="flex justify-content-around">
+
+                            <a target="_blank"
+                                href="https://api.whatsapp.com/send?phone=+61499167608&text=Hi, I have query regarding My website"
+                                class=" custmbtn">Let's Connect &nbsp;<i class="fa fa-whatsapp"
+                                    aria-hidden="true"></i></a>
+                        </div>
+
 
                     </div>
 
                 </div>
-                <div class="col-md-5">
+                <!-- <div class="col-md-5">
                     <div class="bannerimg" data-aos="fade-left">
                         <img src="img/banner.gif" class="img-fluid" alt="">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
-    <img src="img/servicebar.png" class="img-fluid" width="100%" alt="">
+    <?php include_once('include/ribbon.php') ?>
+
+
     <section class="services" id="services">
         <div class="container">
             <div class="row align-items-center">
@@ -290,6 +299,48 @@
 
     <script>
     loadProject('RTO College')
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const target = document.getElementById('typed-text');
+        const cursor = document.querySelector('.cursor');
+        const segments = [{
+                text: 'JATINDER ',
+                style: 'color:#344c36; font-weight:900;'
+            },
+            {
+                text: 'DEV',
+                style: 'color:#f5a623; font-weight:900;'
+            },
+            {
+                text: 'ELOPER',
+                style: 'color:#cccccc; font-weight:900;'
+            },
+        ];
+        let segIndex = 0,
+            charIndex = 0;
+
+        function type() {
+            if (segIndex >= segments.length) {
+                setTimeout(() => cursor.classList.add('done'), 800);
+                return;
+            }
+            const seg = segments[segIndex];
+            if (charIndex === 0) {
+                const span = document.createElement('span');
+                span.setAttribute('style', seg.style);
+                span.id = 'seg-' + segIndex;
+                target.appendChild(span);
+            }
+            document.getElementById('seg-' + segIndex).textContent += seg.text[charIndex++];
+            if (charIndex >= seg.text.length) {
+                segIndex++;
+                charIndex = 0;
+            }
+            setTimeout(type, 80);
+        }
+        setTimeout(type, 500);
+    });
     </script>
 </body>
 

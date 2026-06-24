@@ -615,6 +615,8 @@
         font-size: 12px;
     }
 
+
+
     /* Responsive adjustments */
     @media (max-width: 767px) {
         .stat-divider {
@@ -647,17 +649,17 @@
 <body>
 
     <!-- ===== HERO SECTION ===== -->
-    <section class="rto-hero">
+    <section class="head">
         <div class="container">
             <?php include_once('include/header.php') ?>
             <div class="row align-items-center mt-4">
                 <div class="col-md-7">
-                    <div class="bannertxt" data-aos="fade-right">
-                        <div class="rto-badge">
+                    <div class="bannertxt">
+                        <div class="rto-badge" id="rtoHead">
                             <i class="fa fa-check-circle" aria-hidden="true"></i>
                             VET Industry Specialist · Melbourne
                         </div>
-                        <h1>
+                        <h1 id="rtoHead">
                             RTO Website Design <span>Built for ASQA Compliance</span>
                         </h1>
                         <p>
@@ -679,7 +681,7 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="bannerimg" data-aos="fade-left">
+                    <div class="bannerimg" data-aos="fade-left" id="rtoHead">
                         <!-- Use existing banner gif as fallback, replace with RTO-specific image -->
                         <img src="img/rto.gif" class="img-fluid" alt="RTO Website Design Melbourne">
                     </div>

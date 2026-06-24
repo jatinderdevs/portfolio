@@ -1,6 +1,6 @@
 <header data-aos="fade-down">
     <nav class="navbar navbar-expand-lg navbar-dark custmnav">
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="index.php" title="JATINDER DEVELOPER">
             <strong class="logo_txt"> ]JATINDERDEV[</strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -23,26 +23,30 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="custom-cms-solutions.php">Custom CMS Solutions</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="rto-website-design.php">RTO Web Services</a>
-                        <div class="dropdown-divider"></div>
+
                         <a class="dropdown-item" href="digital-marketing-and-SEO.php">Digital Marketing & SEO</a>
 
                     </div>
 
                 </li>
-
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Projects</a>
+                    <a class="nav-link" href="rto-website-design.php">RTO Web Services</a>
+
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">about</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">My portfolio</a>
+                </li>
+
+
+
+
+                <li class="nav-item">
                     <a class="nav-link" href="contact-us.php">contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact-us.php">blog</a>
-                </li>
+
             </ul>
             <div class="form-inline my-2 my-lg-0">
 

@@ -56,7 +56,7 @@
         </div>
     </section>
 
-    <img src="img/servicebar.png" class="img-fluid w-100" alt="">
+    <?php include_once('include/ribbon.php') ?>
 
     <section class="services" id="services">
         <div class="container">
