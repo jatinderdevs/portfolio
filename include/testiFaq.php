@@ -1,4 +1,4 @@
- <section class="testi">
+ <!-- <section class="testi">
      <div class="container">
          <h5 class="m-0">-Testimonials</h5>
          <h2 class="subHeading">Client <span>Testimonials</span></h2>
@@ -114,7 +114,7 @@
 
          </div>
      </div>
- </section>
+ </section> -->
 
 
  <section id="faq">
@@ -139,7 +139,7 @@
                                      <p>I provide full-stack web development, including responsive websites and
                                          customize web application to automate manual process. Based in Melbourne, I
                                          create tailored, SEO-friendly solutions to help your business grow online. <a
-                                             class="btn-link" href="contact-us">Contact me</a> for a free quote!</p>
+                                             class="btn-link" href="contact-us.php">Contact me</a> for a free quote!</p>
                                  </div>
                              </div>
                          </div>
@@ -155,7 +155,7 @@
                                  <div class="answer">
                                      <p>Website costs vary based on complexity, feature and add-on services like content
                                          writing, SEO, Graphic desing elements. I offer affordable, transparent pricing
-                                         for Melbourne businesses. <a class="btn-link" href="contact-us">Let’s
+                                         for Melbourne businesses. <a class="btn-link" href="contact-us.php">Let’s
                                              connect</a> and get free in-person consultation</p>
                                  </div>
                              </div>
@@ -174,7 +174,7 @@
                                          optimization, and local SEO to boost your rankings on Google and social media
                                          to help your business to reach the potiential customers/users. My strategies
                                          drive traffic and visibility. Get a free SEO report <a class="btn-link"
-                                             href="contact-us">Contact me</a></p>
+                                             href="contact-us.php">Contact me</a></p>
                                  </div>
                              </div>
                          </div>
@@ -190,7 +190,8 @@
                                  <div class="answer">
                                      <p>Absolutely. I craft engaging social media content and manage ads (Instagram,
                                          Facebook) to enhance your brand’s presence. My local market focused campaigns
-                                         attract local customers. <a class="btn-link" href="contact-us">Contact me</a>
+                                         attract local customers. <a class="btn-link" href="contact-us.php">Contact
+                                             me</a>
                                          to start!</p>
                                  </div>
                              </div>
@@ -205,7 +206,7 @@
                              </div>
                              <div class="collapse" id="faq5" data-parent="#accordion">
                                  <div class="answer">
-                                     <p>you can leave your message in <a class="btn-link" href="contact-us">query
+                                     <p>you can leave your message in <a class="btn-link" href="contact-us.php">query
                                              form</a> or you can call to the provided number. we will plan a suitable
                                          time to meet and discuss next steps about the services you are looking for.
                                      </p>

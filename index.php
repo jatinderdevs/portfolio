@@ -291,7 +291,7 @@
     </section>
 
 
-    <!-- <?php include_once('include/testiFaq.php') ?> -->
+    <?php include_once('include/testiFaq.php') ?>
 
 
     <?php include_once('include/footer.php') ?>

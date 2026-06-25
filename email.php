@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'mail.jatinderdev.com';                // Your domain’s mail server (replace with your domain)
         $mail->SMTPAuth = true;                              // Enable SMTP authentication
         $mail->Username = 'info@jatinderdev.com';            // Your cPanel email
-        $mail->Password = 'password email';
+        $mail->Password = 'passowrd';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SSL             // Your cPanel email password
         //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;  // Use TLS
         $mail->Port = 465;                                   // Port for TLS
@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <p><strong>Request Summary:</strong></p>
                 <ul>
                     <li><strong>Name:$name</strong> $name</li>
-                    <li><strong>Message:$message</strong> $items_list</li>
+                    <li><strong>Message:$message</strong> </li>
                 </ul>
                 <p>Need to update your request? Reply to this email or visit <a href='https://www.JatinderDev.com/contact-us.php'>Contact Page</a>.</p>
         
